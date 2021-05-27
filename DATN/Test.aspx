@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Tra cứu định nghĩa, khái niệm</title>
+    <title>Tra cứu định nghĩa, khái niệm.</title>
 <style>
 * {
     margin:0px;
