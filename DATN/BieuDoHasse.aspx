@@ -14,11 +14,11 @@
     <p>2. Một tập hợp các cung có hướng nối một số đỉnh: hai đỉnh x, y được nối lại bởi một cung có hướng ( từ x tới y) nếu y là trội trực tiếp của x.</p>
     <hr />
     <h3>Ví dụ:</h3>
-    <img src="../Images/BieuDoHasse_1.JPG" alt="Girl in a jacket" style="width:300px;height:200px;">
+    <img src="../Images/BieuDoHasse_1.JPG" alt="Girl in a jacket" style="width:400px;height:300px;">
     <p>1. Trên đây là biểu đồ Hasse của tập hợp sắp thứ tự (a1, a2, a3, a4, a5, a6) trong đó: a1 &#8826 a2 &#8826 a3 &#8826 a4 &#8826 a5 &#8826 a6.</p>
     <p>a5 không so sánh được với các phần tử khác </p>
     <p>2. Biểu đề Hasse của u12 được cho bởi :</p>
-    <img src="../Images/BieuDoHasse_2.JPG" alt="Girl in a jacket" style="width:300px;height:200px;">
+    <img src="../Images/BieuDoHasse_2.JPG" alt="Girl in a jacket" style="width:400px;height:300px;">
     <p>3. Với E = {a, b, c} thì biểu đồ Hasse của ( &#8472( E ),&#8834 ) có dạng:</p>
     <img src="../Images/BieuDoHasse_3.JPG" alt="Girl in a jacket" style="width:300px;height:200px;">
     <p>Ở đây ta qui ước các cung là không chéo nhau. Do đó một cách để hình dung dễ dàng là xem như biểu đồ Hasse của &#8472 (E) gốm các đỉnh và cạnh của một hình lập phương 3 chiều. </p>

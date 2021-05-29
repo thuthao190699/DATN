@@ -15,7 +15,7 @@ Trong đó aij là số cạnh hoặc cung nối từ v(i) tới v(j) . <br />
 Ma trận liền kề của 1 đồ thị vô hướng là ma trận đối xứng <br />
 Ma trận liền kề của 1 đồ thị có hướng là ma trận không đối xứng
 </p>
-     <img src="../Images/MaTranLienKe.png" alt="Girl in a jacket" style="width:400px;height:300px;">
+     <img src="../Images/MaTranLienKe.png" alt="Girl in a jacket" style="width:600px;height:500px;">
     <hr />
     <h3>Đề xuất tìm kiếm:</h3>
     <p><a href="DoThiCoHuong.aspx">Đồ thị có hướng</a></p>

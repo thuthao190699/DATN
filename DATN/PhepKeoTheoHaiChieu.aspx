@@ -4,11 +4,11 @@
 
 <html>
 <body>
-    <h3>Phép kéo theo hai chiều.</h3>
+    <h2>Phép kéo theo hai chiều.</h2>
     <p>Mệnh đề nếu P thì Q và ngược lại được kí hiệu P ↔ Q (đọc là P khi và chỉ khi Q hay P nếu và chỉ nếu Q, hay P là điều kiện cần và đủ để có Q).</p>
     <p>P ↔ Q chỉ đúng khi P và Q có cùng chân trị.</p>
     <h4>Quy tắc chân trị:</h4>
-    <img src="../Images/QuyTacChanTri_e.jpg" alt="Girl in a jacket" style="width:300px;height:200px;">
+    <img src="../Images/QuyTacChanTri_e.jpg" alt="Girl in a jacket" style="width:400px;height:300px;">
     <hr />
     <h3>Ví dụ:</h3>
     <p>Xét các mệnh đề sau:</p>

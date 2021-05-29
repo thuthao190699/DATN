@@ -7,8 +7,8 @@
     <title></title>
 </head>
 <body>
-    <h3>Quy tắc tam đoạn luận (Syllogism).</h3>
-    <img src="../Images/TamDoanLuan.jpg" alt="Girl in a jacket" style="width:600px;height:400px;">
+    <h2>Quy tắc tam đoạn luận (Syllogism).</h2>
+    <img src="../Images/TamDoanLuan.jpg" alt="Girl in a jacket" style="width:600px;height:500px;">
     <hr />
     <h3>Đề xuất tìm kiếm:</h3>
     <p><a href="CacQuyTacSuyDien.aspx" target ="_blank">Các quy tắc suy diễn</a></p>

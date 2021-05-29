@@ -7,8 +7,8 @@
     <title></title>
 </head>
 <body>
-    <h3>Quy tắc mâu thuẫn(chứng minh bằng phản chứng)</h3>
-    <img src="../Images/QuyTacMauThuan.jpg" alt="Girl in a jacket" style="width:600px;height:600px;">
+    <h2>Quy tắc mâu thuẫn(chứng minh bằng phản chứng)</h2>
+    <img src="../Images/QuyTacMauThuan.jpg" alt="Girl in a jacket" style="width:700px;height:700px;">
     <hr />
     <h3>Đề xuất tìm kiếm:</h3>
     <p><a href="CacQuyTacSuyDien.aspx" target ="_blank">Các quy tắc suy diễn</a></p>

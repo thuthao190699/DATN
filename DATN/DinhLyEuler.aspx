@@ -9,11 +9,10 @@
 <body>
     <h2>Định lý Euler</h2>
     <h3>Các luật về định lý Euler:</h3>
-    <p>• Đồ thị có hướng G=(V,E) là đồ thị Euler khi và chỉ khi G liên thông và (𝑑𝑒𝑔+) = (𝑑𝑒𝑔−) <br />
-• Đồ thị có hướng G=(V,E) là đồ thị Euler khi và chỉ khi G liên thông và deg chẵn <br />
-• Đồ thị G có chu trình Euler khi và chỉ khi G liên thông và mọi đỉnh đều có bậc (chẵn khác 0).<br />
- • Đồ thị G có đường đi Euler khi và chỉ khi G liên thông và có không quá 2 đỉnh bậc lẻ.<br />
-</p>
+    <p>• Đồ thị có hướng G=(V,E) là đồ thị Euler khi và chỉ khi G liên thông và (𝑑𝑒𝑔+) = (𝑑𝑒𝑔−) </p>
+<p>• Đồ thị có hướng G=(V,E) là đồ thị Euler khi và chỉ khi G liên thông và deg chẵn </p>
+<p>• Đồ thị G có chu trình Euler khi và chỉ khi G liên thông và mọi đỉnh đều có bậc (chẵn khác 0).</p>
+<p> • Đồ thị G có đường đi Euler khi và chỉ khi G liên thông và có không quá 2 đỉnh bậc lẻ.</p>
     <hr />
     <h3>Đề xuất tìm kiếm:</h3>
     <p><a href="DoThiCoHuong.aspx" target ="_blank">Đồ thị có hướng</a></p>

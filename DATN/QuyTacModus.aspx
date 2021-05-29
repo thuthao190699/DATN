@@ -7,7 +7,7 @@
     <title></title>
 </head>
 <body>
-    <h3>Quy tắc Modus Tollens(Phương pháp phủ định)</h3>
+    <h2>Quy tắc Modus Tollens(Phương pháp phủ định)</h2>
     <img src="../Images/QuytacModus.jpg" alt="Girl in a jacket" style="width:600px;height:400px;">
     <hr />
     <h3>Đề xuất tìm kiếm:</h3>

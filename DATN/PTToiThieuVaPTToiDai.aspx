@@ -24,7 +24,7 @@ c) Phần tử tối tiểu và tối đại hoặc <i>không tồn tại</i> ho
     </p>
     <hr />
     <h3>Ví dụ:</h3>
-    <img src="../Images/PTToiThieuVaPTToiDai_a.png" alt="Girl in a jacket" style="width:500px;height:500px;">
+    <img src="../Images/PTToiThieuVaPTToiDai_a.png" alt="Girl in a jacket" style="width:600px;height:600px;">
     <hr />
     <h3>Đề xuất tìm kiếm:</h3>
     <p><a href="PTTroiVaTroiTrucTiep.aspx" target ="_blank">Phần tử trội và trội trực tiếp</a></p>

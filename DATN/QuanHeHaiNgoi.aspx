@@ -16,6 +16,8 @@
     <p>Cho A={1, 2, 3, 4} và R = {(a, b)|a là ước của b}</p>
     <p> Khi đó :</p>
     <p>R ={(1,1),(1,2),(1,3),(1,4),(2,2),(2,4),(3,3),(4,4)}</p>
+     <img src="../Images/QH2Ngoi.JPG" alt="Girl in a jacket" style="width:400px;height:300px;">
+
     <hr />
     <h3>Đề xuất tìm kiếm:</h3>
     <p><a href="TinhPhanXa.aspx" target ="_blank">Tính phản xạ</a></p>

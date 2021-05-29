@@ -4,11 +4,11 @@
 
 <html>
 <body>
-    <h3>Phép nối liền.</h3>
+    <h2>Phép nối liền.</h2>
     <p>Mệnh đề nối liền của 2 mệnh đề P, Q được ký hiệu bởi P ^ Q (đọc là P và Q).</p> 
     <p>Chân trị của P ^ Q là 1 nếu cả P lẫn Q đều có chân trị 1. Trong các trường hợp khác, P ^ Q có chân trị 0.</p>
     <h4>Quy tắc chân trị</h4>
-    <img src="../Images/QuyTacChanTri_b.jpg" alt="Girl in a jacket" style="width:300px;height:200px;">
+    <img src="../Images/QuyTacChanTri_b.jpg" alt="Girl in a jacket" style="width:400px;height:300px;">
     <hr />
     <h3>Ví dụ:</h3>
     <p>Mệnh đề “Hôm nay trời đẹp và trận bóng đá sẽ hấp dẫn” được xem như là một mệnh đề đúng nếu cả 2 điều kiện “trời đẹp” và “trận bòng đá hấp dẫn” đều xảy ra.</p>

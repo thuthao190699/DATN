@@ -7,18 +7,31 @@
     <title>Tra cứu định lý, tính chất.</title>
 <style>
     .container {
-    width: 70%;
+    width: 100%;
     margin: auto;
     text-align: center;
+    margin-top: 7px;
+    background-color:black;
 }
     .content{
-        width: 90%;
-        height: 800px;
+        width: 95%;
+        height: 900px;
         margin-top: 8px;
-        margin-left: 60px;
-        background-color:hotpink;
+        margin-left: 40px;
+        background-color:gainsboro;
+        text-align:center;
         overflow: scroll;
     }
+    .header{
+        width:100%;
+        margin-top: 5px;
+        height:60px;
+        text-align:center;
+        margin-bottom:5px;
+        padding: 0 15px;
+        background-color:gray;
+    }
+    
 /* Dropdown Button */
 .dropbtn {
     background-color: #4CAF50;
@@ -59,7 +72,7 @@
 }
  
 /* Thay đổi màu nền khi các menu con được hover */
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {background-color: #99b433}
  
 /* Hiển thị menu, ta sẽ dùng javascript để thêm class này vào các nôi dung cần được hiển thị */
 .show {
@@ -68,45 +81,48 @@
 </style>
 </head>
 <body>
+   <div class="header">
+       <h1>Tra cứu định lý, tính chất.</h1>
+   </div>
    <div class="container">
-    <h2>Tra cứu các định lý và tính chất.</h2>
+    
     <div class="dropdown">
         <button value="pheptoan" class="dropbtn">Phép toán, Thuật toán.</button>
         <div id="pheptoan" class="dropdown-content">
-            <a href="PhepPhuDinh.aspx">Phép phủ định</a>
-            <a href="PhepNoiLien.aspx">Phép nối liền</a>
-            <a href="PhepNoiRoi.aspx">Phép nối rời</a>
-            <a href="PhepKeoTheo.aspx">Phép kéo theo</a>
-            <a href="PhepKeoTheoHaiChieu.aspx">Phép kéo theo 2 chiều</a>
-            <a href="BaoDongCuaQuanHe.aspx">Bao đóng của quan hệ</a>
-            <a href="CacPhepToanThuongDung.aspx">Các phép toán thường dùng</a>
-            <a href="PPBienDoiDaiSo.aspx">Phương pháp biến đổi đại số</a>
-            <a href="CacLoaiCong.aspx">Các loại cổng</a>
-            <a href="ThuatToanTimChuTrinhEuler.aspx">Thuật toán tìm chu trình Euler</a>
-            <a href="ThuatToanPrim.aspx">Thuật toán Prim</a>
-            <a href="ThuatToanKruskal.aspx">Thuật toán Kruskal</a>
-            <a href="ThuatToanDijkstra.aspx">Thuật toán Dijkstra</a>
+            <a id="1" class="itemClick">Phép phủ định</a>
+            <a id="2" class="itemClick">Phép nối liền</a>
+            <a id="3" class="itemClick">Phép nối rời</a>
+            <a id="4" class="itemClick">Phép kéo theo</a>
+            <a id="5" class="itemClick">Phép kéo theo 2 chiều</a>
+            <a id="6" class="itemClick">Bao đóng của quan hệ</a>
+            <a id="7" class="itemClick">Các phép toán thường dùng</a>
+            <a id="8" class="itemClick">Phương pháp biến đổi đại số</a>
+            <a id="9" class="itemClick">Các loại cổng</a>
+            <a id="10" class="itemClick">Thuật toán tìm chu trình Euler</a>
+            <a id="11" class="itemClick">Thuật toán Prim</a>
+            <a id="12" class="itemClick">Thuật toán Kruskal</a>
+            <a id="13" class="itemClick">Thuật toán Dijkstra</a>
         </div>
     </div>
     <div class="dropdown">
         <button value="dinhly" class="dropbtn">Định lý, Tính chất</button>
         <div id="dinhly" class="dropdown-content">
-            <a href="TuongDuongLogic.aspx">Tương đương Logic</a>
-            <a href="HeQuaLogic.aspx">Hệ quả Logic</a>
-            <a href="CacQuyTacThayTheTuongDuong.aspx">Các quy tắc thay thế tương đương Logic</a>
-            <a href="CacQuyTacVaLuat.aspx">Các quy tắc và luật Logic</a>
-            <a href="TamDoanLuan.aspx">Tam đoạn luận(Syllogism)</a>
-            <a href="QuyTacModus.aspx">Quy tắc Modus Tollens(Phương pháp phủ định)</a>
-            <a href="QuyTacMauThuan.aspx">Quy tắc mâu thuẫn(chứng minh bằng phản chứng)</a>
-            <a href="QuyTacChungMinhTheoTruongHop.aspx">Quy tắc chứng minh theo trường hợp</a>
-            <a href="TinhPhanXa.aspx">Tính phản xạ</a>
-            <a href="TinhDoiXung.aspx">Tính đối xứng</a>
-            <a href="TinhPhanXung.aspx">Tính phản xứng</a>
-            <a href="TinhBatCau.aspx">Tính bắt cầu(Truyền)</a>
-            <a href="DLQuanHeTuongDuong.aspx">Định lý về quan hệ tương đương</a>
-            <a href="DinhLyEuler.aspx">Định lý Euler</a>
-            <a href="QuyTacXacDinhChuTrinhHamilton.aspx">Qui tắc xác định chu trình Hamilton</a>
-            <a href="CayKhung.aspx">Cây khung</a>
+            <a id="14" class="itemClick">Tương đương Logic</a>
+            <a id="15" class="itemClick">Hệ quả Logic</a>
+            <a id="16" class="itemClick">Các quy tắc thay thế tương đương Logic</a>
+            <a id="17" class="itemClick">Các quy tắc và luật Logic</a>
+            <a id="18" class="itemClick">Tam đoạn luận(Syllogism)</a>
+            <a id="19" class="itemClick">Quy tắc Modus Tollens(Phương pháp phủ định)</a>
+            <a id="20" class="itemClick">Quy tắc mâu thuẫn(chứng minh bằng phản chứng)</a>
+            <a id="21" class="itemClick">Quy tắc chứng minh theo trường hợp</a>
+            <a id="22" class="itemClick">Tính phản xạ</a>
+            <a id="23" class="itemClick">Tính đối xứng</a>
+            <a id="24" class="itemClick">Tính phản xứng</a>
+            <a id="25" class="itemClick">Tính bắt cầu(Truyền)</a>
+            <a id="26" class="itemClick">Định lý về quan hệ tương đương</a>
+            <a id="27" class="itemClick">Định lý Euler</a>
+            <a id="28" class="itemClick">Qui tắc xác định chu trình Hamilton</a>
+            <a id="29" class="itemClick">Cây khung</a>
 
 
         </div>
@@ -115,17 +131,17 @@
        <div class="dropdown">
         <button value="quanhe" class="dropbtn">Mối quan hệ.</button>
         <div id="quanhe" class="dropdown-content">
-            <a href="DNQuanHeTuongDuong.aspx">Quan hệ tương đương</a>
-            <a href="QuanHeThuTu.aspx">Quan hệ thứ tự</a>
-            <a href="CacLoaiDoThi.aspx">Loại đồ thị</a>
-            <a href="DoThiLienThong.aspx">Đồ thị liên thông</a>
-            <a href="ThanhPhanLienThong.aspx">Thành phần liên thông</a>
+            <a id="30" class="itemClick">Quan hệ tương đương</a>
+            <a id="31" class="itemClick">Quan hệ thứ tự</a>
+            <a id="32" class="itemClick">Loại đồ thị</a>
+            <a id="33" class="itemClick">Đồ thị liên thông</a>
+            <a id="34" class="itemClick">Thành phần liên thông</a>
 
         </div>
     </div>
 </div>
  
-<div class ="content">
+<div  id="content-Div" class ="content">
 
 </div>
 <script>
@@ -159,5 +175,284 @@
          }
     });
 </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(".itemClick").click(function () {
+
+            if (jQuery(this).attr('id') == "1") {
+                $.ajax({
+                    url: "PhepPhuDinh.aspx",
+
+                    success: function (result) {
+                        $("#content-Div").html(result);
+                    }
+                });
+            } else if (jQuery(this).attr('id') == "2") {
+                $.ajax({
+                    url: "PhepNoiLien.aspx",
+
+                    success: function (result) {
+                        $("#content-Div").html(result);
+                    }
+                });
+            } else if (jQuery(this).attr('id') == "3") {
+                $.ajax({
+                    url: "PhepNoiRoi.aspx",
+
+                    success: function (result) {
+                        $("#content-Div").html(result);
+                    }
+                });
+            } else if (jQuery(this).attr('id') == "4") {
+                $.ajax({
+                    url: "PhepKeoTheo.aspx",
+
+                    success: function (result) {
+                        $("#content-Div").html(result);
+                    }
+                });
+            } else if (jQuery(this).attr('id') == "5") {
+                $.ajax({
+                    url: "PhepKeoTheoHaiChieu.aspx",
+
+                    success: function (result) {
+                        $("#content-Div").html(result);
+                    }
+                });
+            } else if (jQuery(this).attr('id') == "6") {
+                $.ajax({
+                    url: "BaoDongCuaQuanHe.aspx",
+
+                    success: function (result) {
+                        $("#content-Div").html(result);
+                    }
+                });
+            } else if (jQuery(this).attr('id') == "7") {
+                $.ajax({
+                    url: "CacPhepToanThuongDung.aspx",
+
+                    success: function (result) {
+                        $("#content-Div").html(result);
+                    }
+                });
+            } else if (jQuery(this).attr('id') == "8") {
+                $.ajax({
+                    url: "PPBienDoiDaiSo.aspx",
+
+                    success: function (result) {
+                        $("#content-Div").html(result);
+                    }
+                });
+            } else if (jQuery(this).attr('id') == "9") {
+                $.ajax({
+                    url: "CacLoaiCong.aspx",
+
+                    success: function (result) {
+                        $("#content-Div").html(result);
+                    }
+                });
+            } else if (jQuery(this).attr('id') == "10") {
+                $.ajax({
+                    url: "ThuatToanTimChuTrinhEuler.aspx",
+
+                    success: function (result) {
+                        $("#content-Div").html(result);
+                    }
+                });
+            } else if (jQuery(this).attr('id') == "11") {
+                $.ajax({
+                    url: "ThuatToanPrim.aspx",
+
+                    success: function (result) {
+                        $("#content-Div").html(result);
+                    }
+                });
+            } else if (jQuery(this).attr('id') == "12") {
+                $.ajax({
+                    url: "ThuatToanKruskal.aspx",
+
+                    success: function (result) {
+                        $("#content-Div").html(result);
+                    }
+                });
+            } else if (jQuery(this).attr('id') == "13") {
+                $.ajax({
+                    url: "ThuatToanDijkstra.aspx",
+
+                    success: function (result) {
+                        $("#content-Div").html(result);
+                    }
+                });
+            } else if (jQuery(this).attr('id') == "14") {
+                $.ajax({
+                    url: "TuongDuongLogic.aspx",
+
+                    success: function (result) {
+                        $("#content-Div").html(result);
+                    }
+                });
+            } else if (jQuery(this).attr('id') == "15") {
+                $.ajax({
+                    url: "HeQuaLogic.aspx",
+
+                    success: function (result) {
+                        $("#content-Div").html(result);
+                    }
+                });
+            } else if (jQuery(this).attr('id') == "16") {
+                $.ajax({
+                    url: "CacQuyTacThayTheTuongDuong.aspx",
+
+                    success: function (result) {
+                        $("#content-Div").html(result);
+                    }
+                });
+            } else if (jQuery(this).attr('id') == "17") {
+                $.ajax({
+                    url: "CacQuyTacVaLuat.aspx",
+
+                    success: function (result) {
+                        $("#content-Div").html(result);
+                    }
+                });
+            } else if (jQuery(this).attr('id') == "18") {
+                $.ajax({
+                    url: "TamDoanLuan.aspx",
+
+                    success: function (result) {
+                        $("#content-Div").html(result);
+                    }
+                });
+            } else if (jQuery(this).attr('id') == "19") {
+                $.ajax({
+                    url: "QuyTacModus.aspx",
+
+                    success: function (result) {
+                        $("#content-Div").html(result);
+                    }
+                });
+            } else if (jQuery(this).attr('id') == "20") {
+                $.ajax({
+                    url: "QuyTacMauThuan.aspx",
+
+                    success: function (result) {
+                        $("#content-Div").html(result);
+                    }
+                });
+            } else if (jQuery(this).attr('id') == "21") {
+                $.ajax({
+                    url: "QuyTacChungMinhTheoTruongHop.aspx",
+
+                    success: function (result) {
+                        $("#content-Div").html(result);
+                    }
+                });
+            } else if (jQuery(this).attr('id') == "22") {
+                $.ajax({
+                    url: "TinhPhanXa.aspx",
+
+                    success: function (result) {
+                        $("#content-Div").html(result);
+                    }
+                });
+            } else if (jQuery(this).attr('id') == "23") {
+                $.ajax({
+                    url: "TinhDoiXung.aspx",
+
+                    success: function (result) {
+                        $("#content-Div").html(result);
+                    }
+                });
+            } else if (jQuery(this).attr('id') == "24") {
+                $.ajax({
+                    url: "TinhPhanXung.aspx",
+
+                    success: function (result) {
+                        $("#content-Div").html(result);
+                    }
+                });
+            } else if (jQuery(this).attr('id') == "25") {
+                $.ajax({
+                    url: "TinhBatCau.aspx",
+
+                    success: function (result) {
+                        $("#content-Div").html(result);
+                    }
+                });
+            } else if (jQuery(this).attr('id') == "26") {
+                $.ajax({
+                    url: "DLQuanHeTuongDuong.aspx",
+
+                    success: function (result) {
+                        $("#content-Div").html(result);
+                    }
+                });
+            } else if (jQuery(this).attr('id') == "27") {
+                $.ajax({
+                    url: "DinhLyEuler.aspx",
+
+                    success: function (result) {
+                        $("#content-Div").html(result);
+                    }
+                });
+            } else if (jQuery(this).attr('id') == "28") {
+                $.ajax({
+                    url: "QuyTacXacDinhChuTrinhHamilton.aspx",
+
+                    success: function (result) {
+                        $("#content-Div").html(result);
+                    }
+                });
+            } else if (jQuery(this).attr('id') == "29") {
+                $.ajax({
+                    url: "CayKhung.aspx",
+
+                    success: function (result) {
+                        $("#content-Div").html(result);
+                    }
+                });
+            } else if (jQuery(this).attr('id') == "30") {
+                $.ajax({
+                    url: "DNQuanHeTuongDuong.aspx",
+
+                    success: function (result) {
+                        $("#content-Div").html(result);
+                    }
+                });
+            } else if (jQuery(this).attr('id') == "31") {
+                $.ajax({
+                    url: "QuanHeThuTu.aspx",
+
+                    success: function (result) {
+                        $("#content-Div").html(result);
+                    }
+                });
+            } else if (jQuery(this).attr('id') == "32") {
+                $.ajax({
+                    url: "CacLoaiDoThi.aspx",
+
+                    success: function (result) {
+                        $("#content-Div").html(result);
+                    }
+                });
+            } else if (jQuery(this).attr('id') == "33") {
+                $.ajax({
+                    url: "DoThiLienThong.aspx",
+
+                    success: function (result) {
+                        $("#content-Div").html(result);
+                    }
+                });
+            } else if (jQuery(this).attr('id') == "34") {
+                $.ajax({
+                    url: "ThanhPhanLienThong.aspx",
+
+                    success: function (result) {
+                        $("#content-Div").html(result);
+                    }
+                });
+            }
+        });
+    </script>
 </body>
 </html>

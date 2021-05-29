@@ -14,7 +14,7 @@
 • Cạnh e là cạnh liên thuộc với đỉnh u,v.<br />
 • Đỉnh u, v là đỉnh đầu cạnh e.<br />
 </p>
- <img src="../Images/Dinhke.png" alt="Girl in a jacket" style="width:300px;height:200px;">
+ <img src="../Images/Dinhke.png" alt="Girl in a jacket" style="width:400px;height:300px;">
     <p>Trong đồ thị có hướng G=(V,E), nếu e=(u,v) là 1 cung thì: <br />
 • Đỉnh v là đỉnh kề của đỉnh u <br />
 • Cung e là cung đi ra đỉnh u và cung đi vào đỉnh v <br />

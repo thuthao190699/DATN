@@ -23,7 +23,7 @@ nav > ul > li{display:inline-block; }
 nav > ul > li > a{display:block; line-height:40px; padding:0 50px;}
 /*Sub-menu*/
 nav ul ul{ box-shadow: 1px 1px 0 #000;width:200px; background-color:red; position:absolute; top:110%; left:0; opacity:0; visibility:hidden; transition: all 0.3s; z-index: 999;}
-nav ul ul li{ line-height:30px; padding:0 12px;}
+nav ul ul li{ line-height:30px; padding:0 7px;}
 nav ul ul li:hover {background-color:#212121; }
 /*Hover and Sub-menu*/
 nav ul li:hover > ul{opacity: 1; visibility:visible; top:100%; }

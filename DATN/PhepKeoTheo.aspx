@@ -4,11 +4,11 @@
 
 <html>
 <body>
-    <h3>Phép kéo theo.</h3>
+    <h2>Phép kéo theo.</h2>
     <p>Mệnh đề nếu P thì Q được ký hiệu P -> Q (đọc là P kéo theo Q hay P là điều kiện đủ của Q, hay Q là điều kiện cần của P).</p>
     <p> P -> Q chỉ sai khi P đúng và Q sai.</p>
     <h4>Quy tắc chân trị:</h4>
-    <img src="../Images/QuyTacChanTri_d.jpg" alt="Girl in a jacket" style="width:300px;height:200px;">
+    <img src="../Images/QuyTacChanTri_d.jpg" alt="Girl in a jacket" style="width:400px;height:300px;">
     <hr />
     <h4>Nhận xét:</h4>
     <p>Nhận xét từ bảng chân trị của P -> Q rằng:</p>

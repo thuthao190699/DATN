@@ -7,10 +7,10 @@
     <h2>Phép toán mệnh đề</h2>
     <p>Mục đích của phép toán mệnh đề là nguyên cứu chân trị của một mệnh đề phức hợp từ chân trị của các mệnh đề đơn giản hơn và các phép nối của những mệnh
         đề này thể hiện qua liên từ hoặc trạng từ không.</p>
-    <h3>Phép phủ định</h3>
+    <h2>Phép phủ định</h2>
     <p>Phủ định của mệnh đề P được ký hiệu bời ¬P ( đọc là không P). Chân trị của ¬P là 0 </p>
     <h4>Qui tắc chân trị:</h4>
-    <img src="../Images/QuyTacChanTri_a.jpg" alt="Girl in a jacket" style="width:250px;height:250px;">
+    <img src="../Images/QuyTacChanTri_a.jpg" alt="Girl in a jacket" style="width:450px;height:350px;">
     <hr />
     <h3>Ví dụ:</h3>
     <p>	A = “ 3 > 8 ” có ¬A = “ 3 ≤ 8 ”. B = “ 4 ≠ 7 ” có ¬B = “ 4 = 7 ”.</p>

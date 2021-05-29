@@ -4,11 +4,11 @@
 
 <html>
 <body>
-    <h3>Phép nối rời.</h3>
+    <h2>Phép nối rời.</h2>
     <p>Mệnh đề nối rời của 2 mệnh đề P, Q được ký hiệu bởi P ˅ Q (đọc là P hay Q).</p>
     <p>Chân trị của P ˅ Q là 0 nếu cả P lẫn Q đều có chân trị 0. Trong các trường hợp khác, P ˅ Q có chân trị 1.</p>
     <h4>Quy tắc chân trị</h4>
-    <img src="../Images/QuyTacChanTri_C.jpg" alt="Girl in a jacket" style="width:300px;height:200px;">
+    <img src="../Images/QuyTacChanTri_C.jpg" alt="Girl in a jacket" style="width:400px;height:300px;">
     <hr />
     <h3>Ví dụ:</h3>
     <p>“Ba đọc báo hay xem tivi” được xem như là một mệnh đề đúng nếu lúc này ba đọc báo, xem tivi hay vừa đọc báo vừa xem tivi.</p>

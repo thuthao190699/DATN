@@ -7,7 +7,7 @@
     <title></title>
 </head>
 <body>
-    <h3>Hệ quả Logic.</h3>
+    <h2>Hệ quả Logic.</h2>
     <p>Dạng mệnh đề F được nói là hệ quả logic  của dạng mệnh đề E nếu E → F là  hằng đúng</p>
     <p>Khi ấy ta viết E => F. Ta cũng nói E có hệ quả logic là F.</p>
     <p>Như thế ta nói rằng E tương đương với F có nghĩa là F là hệ quả logic của E và E là hệ quả logic của F</p>

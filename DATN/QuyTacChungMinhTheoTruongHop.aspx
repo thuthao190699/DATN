@@ -8,7 +8,7 @@
 </head>
 <body>
     <h2>Quy tắc chứng minh theo trường hợp.</h2>
-    <p>Quy tắc này được thể hiện bằng hằng đúng sau:</p>
+    <p><b>Quy tắc này được thể hiện bằng hằng đúng sau:</b></p>
     <p>[(p &#8594 r) &#8743(q &#8594 r)] &#8594 [(p &#8744 q) &#8594 r]</p>
     <p>Ý nghĩa của quy tắc này là nếu một giả thuyết có thể tách ra thành hai trường hợp p đúng hay q đúng, và ta đã chứng minh được riêng lẽ cho từng trường hợp là kết luận r đúng, khi ấy r cũng đúng trong cả hai trường hợp.</p>
     <hr />

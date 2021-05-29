@@ -12,7 +12,7 @@
     <hr /> 
     <h3>Ví dụ:</h3>
     <p>Ta hãy xây dựng bảng chân trị của hai dạng mệnh đề P&#8744;(q&#8743; r) và (P &#8744;q)&#8743; r theo các biến mệnh đề p,q,r</p>
-    <img src="../Images/BangChanTriCuaBienMenhDe.jpg" alt="Girl in a jacket" style="width:500px;height:200px;">
+    <img src="../Images/BangChanTriCuaBienMenhDe.jpg" alt="Girl in a jacket" style="width:500px;height:300px;">
     <p>Ta thấy hai dạng mệnh đề P&#8744;(q&#8743; r) và (P &#8744;q)&#8743; r có bảng chân trị khác nhau. Điều này cho thấy thứ tự thực hiện các phép nối là quan trọng và sự cần thiết của các dấu "()"</p>
     <p>Tuy nhiên, ta sẽ qui ước rằng, nếu phép nối ¬ đi cùng với một phép nối khác mà không có dấu "()" thì phép nối ¬ sẽ được ưu tiên thực hiện trước.</p>
     <p>Ví dụ như : ¬P v Q có nghĩa là thực hiện ¬P trước rồi mới thực hiện v. Nói cách khác, biểu thức ¬P v Q và (¬P) v Q là một.</p>

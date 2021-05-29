@@ -7,21 +7,31 @@
     <title></title>
 <style>
     .container {
-    width: 70%;
+    width: 100%;
     margin: auto;
     text-align: center;
+    background-color:black;
 }
     .content{
         width: 90%;
         height: 800px;
         margin-top: 8px;
         margin-left: 60px;
-        background-color:hotpink;
+        background-color:pink;
         overflow: scroll;
+    }
+    .header{
+        width:100%;
+        margin-top: 5px;
+        height:60px;
+        text-align:center;
+        margin-bottom:5px;
+        padding: 0 15px;
+        background-color:gray;
     }
 /* Dropdown Button */
 .dropbtn {
-    background-color: #4CAF50;
+    background-color: #1e7145;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -31,7 +41,7 @@
  
 /* ĐỔi màu nền khi hover và focus Dropdown button */
 .dropbtn:hover, .dropbtn:focus {
-    background-color: #3e8e41;
+    background-color: #00a300;
 }
  
 /* Định dạng các thẻ bao bọc các menu */
@@ -59,7 +69,7 @@
 }
  
 /* Thay đổi màu nền khi các menu con được hover */
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {background-color: #99b433}
  
 /* Hiển thị menu, ta sẽ dùng javascript để thêm class này vào các nôi dung cần được hiển thị */
 .show {
@@ -68,31 +78,51 @@
 </style>
 </head>
 <body>
+    <div class="header">
+        <h1>Bài tập và cách giải.</h1>
+    </div>
     <div class="container">
-    <h2>Bài tập và cách giải.</h2>
     <div class="dropdown">
         <button value="logic" class="dropbtn">Cơ sở Logic.</button>
         <div id="logic" class="dropdown-content">
-            <a href="PhepPhuDinh.aspx">Phép phủ định</a>
-            <a href="#">CSS</a>
-            <a href="#">HTML</a>
+            <a href="Logic1.aspx">Biến đổi tương đương</a>
+            <a href="Logic2.aspx">Chân trị</a>
+            <a href="Logic3.aspx">Suy luận VD1</a>
+            <a href="Logic4.aspx">Suy luận VD2</a>
+            <a href="Logic5.aspx">Suy luận VD3</a>
+            <a href="Logic6.aspx">Mệnh đề VD1</a>
+            <a href="Logic7.aspx">Mệnh đề VD2</a>
+            <a href="Logic8.aspx">Suy diễn VD1</a>
+            <a href="Logic9.aspx">Suy diễn VD2</a>
+            <a href="Logic10.aspx">Tam đoạn luận</a>
+            <a href="Logic11.aspx">C/m phản chứng</a>
+            <a href="Logic12.aspx">Luật</a>
+            <a href="Logic13.aspx">Biến mệnh đề</a>
+            <a href="Logic14.aspx">Luật và phép biến đổi</a>
+
         </div>
     </div>
     <div class="dropdown">
         <button value="quanhe" class="dropbtn">Quan hệ</button>
         <div id="quanhe" class="dropdown-content">
-            <a href="#">Thủ thuật window</a>
-            <a href="#">Download</a>
-            <a href="#">Phần cứng</a>
+            <a href="QuanHe1.aspx">Quan hệ tương đương VD1</a>
+            <a href="QuanHe2.aspx">Quan hệ tương đương VD2</a>
+            <a href="QuanHe3.aspx">Quan hệ tương đương VD3</a>
+            <a href="QuanHe4.aspx">Biểu đồ Hasse</a>
+            <a href="QuanHe5.aspx">Quan hệ thứ tự</a>
+            <a href="QuanHe6.aspx">Quan hệ 2 ngôi</a>
+
         </div>
     </div>
 
        <div class="dropdown">
         <button value="hamboole" class="dropbtn">Đại số Boole.</button>
         <div id="hamboole" class="dropdown-content">
-            <a href="#">Thủ thuật window</a>
-            <a href="#">Download</a>
-            <a href="#">Phần cứng</a>
+            <a href="Boole1.aspx">Bảng Kar VD1</a>
+            <a href="Boole2.aspx">Bảng Kar VD2</a>
+            <a href="Boole3.aspx">Bảng Kar VD3</a>
+            <a href="Boole4.aspx">Bảng Kar VD4</a>
+
         </div>
     </div>
 

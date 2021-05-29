@@ -72,6 +72,10 @@
     <Content Include="BaoDongCuaQuanHe.aspx" />
     <Content Include="BienMenhDe.aspx" />
     <Content Include="BieuDoHasse.aspx" />
+    <Content Include="Boole1.aspx" />
+    <Content Include="Boole2.aspx" />
+    <Content Include="Boole3.aspx" />
+    <Content Include="Boole4.aspx" />
     <Content Include="BTVaPP.aspx" />
     <Content Include="CacLoaiCong.aspx" />
     <Content Include="CacLoaiDoThi.aspx" />
@@ -108,6 +112,16 @@
     <Content Include="Images\BieuDoHasse_3.JPG" />
     <Content Include="Images\BieuDoHasse_4.JPG" />
     <Content Include="Images\BieuDoHasse_5.JPG" />
+    <Content Include="Images\Boole1.png" />
+    <Content Include="Images\Boole1a.JPG" />
+    <Content Include="Images\Boole2.png" />
+    <Content Include="Images\Boole2a.JPG" />
+    <Content Include="Images\Boole3.png" />
+    <Content Include="Images\Boole3a.JPG" />
+    <Content Include="Images\Boole4.png" />
+    <Content Include="Images\Boole4a.JPG" />
+    <Content Include="Images\Boole4b.JPG" />
+    <Content Include="Images\Boole4c.JPG" />
     <Content Include="Images\CacPhepToanThuongDung_a.png" />
     <Content Include="Images\CacPhepToanThuongDung_b.png" />
     <Content Include="Images\CanhSSvaKhuyen.png" />
@@ -136,6 +150,33 @@
     <Content Include="Images\KNDoThiEuler.png" />
     <Content Include="Images\KNKeNhauTrongQuanHeThuTu.jpg" />
     <Content Include="Images\KNKeNhauTrongQuanHeThuTu_b.jpg" />
+    <Content Include="Images\LG10.JPG" />
+    <Content Include="Images\LG11.JPG" />
+    <Content Include="Images\LG11a.JPG" />
+    <Content Include="Images\LG12.JPG" />
+    <Content Include="Images\LG13.JPG" />
+    <Content Include="Images\LG14.JPG" />
+    <Content Include="Images\LG14a.JPG" />
+    <Content Include="Images\LG1a.JPG" />
+    <Content Include="Images\LG1c.png" />
+    <Content Include="Images\LG2.png" />
+    <Content Include="Images\LG2a.JPG" />
+    <Content Include="Images\LG2b.JPG" />
+    <Content Include="Images\LG3.png" />
+    <Content Include="Images\LG3a.JPG" />
+    <Content Include="Images\LG4.png" />
+    <Content Include="Images\LG4a.JPG" />
+    <Content Include="Images\LG5.png" />
+    <Content Include="Images\LG5a.JPG" />
+    <Content Include="Images\LG6.png" />
+    <Content Include="Images\LG6a.JPG" />
+    <Content Include="Images\LG6b.JPG" />
+    <Content Include="Images\LG7.png" />
+    <Content Include="Images\LG7a.JPG" />
+    <Content Include="Images\LG8.JPG" />
+    <Content Include="Images\LG8a.JPG" />
+    <Content Include="Images\LG9.JPG" />
+    <Content Include="Images\LG9a.JPG" />
     <Content Include="Images\MaTranLienKe.png" />
     <Content Include="Images\MaTranLienThuoc.JPG" />
     <Content Include="Images\PhanTuNhoNhatVaPTLonNhat_b.jpg" />
@@ -144,6 +185,14 @@
     <Content Include="Images\PPBangKarnaugh_f.png" />
     <Content Include="Images\PPBienDoiDaiSo.png" />
     <Content Include="Images\PTToiThieuVaPTToiDai_a.png" />
+    <Content Include="Images\qh1.png" />
+    <Content Include="Images\qh2.png" />
+    <Content Include="Images\QH2Ngoi.JPG" />
+    <Content Include="Images\qh3.png" />
+    <Content Include="Images\qh4.png" />
+    <Content Include="Images\qh4a.png" />
+    <Content Include="Images\qh5.png" />
+    <Content Include="Images\qh6.png" />
     <Content Include="Images\QHThuTu.JPG" />
     <Content Include="Images\QuanHeThuTuToanPhan_b.jpg" />
     <Content Include="Images\QuyTacChanTri_a.jpg" />
@@ -168,6 +217,20 @@
     <Content Include="KNHamDaiSoBoole.aspx" />
     <Content Include="KNKeNhauTrongQuanHeThuTu.aspx" />
     <Content Include="KNVeCay.aspx" />
+    <Content Include="Logic12.aspx" />
+    <Content Include="Logic1.aspx" />
+    <Content Include="Logic10.aspx" />
+    <Content Include="Logic11.aspx" />
+    <Content Include="Logic13.aspx" />
+    <Content Include="Logic14.aspx" />
+    <Content Include="Logic2.aspx" />
+    <Content Include="Logic3.aspx" />
+    <Content Include="Logic4.aspx" />
+    <Content Include="Logic5.aspx" />
+    <Content Include="Logic6.aspx" />
+    <Content Include="Logic7.aspx" />
+    <Content Include="Logic8.aspx" />
+    <Content Include="Logic9.aspx" />
     <Content Include="LopTuongDuong.aspx" />
     <Content Include="MachLogic.aspx" />
     <Content Include="MaTranLienKe.aspx" />
@@ -185,6 +248,12 @@
     <Content Include="PPBienDoiDaiSo.aspx" />
     <Content Include="PTToiThieuVaPTToiDai.aspx" />
     <Content Include="PTTroiVaTroiTrucTiep.aspx" />
+    <Content Include="QuanHe1.aspx" />
+    <Content Include="QuanHe2.aspx" />
+    <Content Include="QuanHe3.aspx" />
+    <Content Include="QuanHe4.aspx" />
+    <Content Include="QuanHe5.aspx" />
+    <Content Include="QuanHe6.aspx" />
     <Content Include="QuanHeHaiNgoi.aspx" />
     <Content Include="QuanHeThuTu.aspx" />
     <Content Include="QuanHeThuTuBanPhan.aspx" />
@@ -209,6 +278,7 @@
     <Content Include="TraCuuDLVaTC.aspx" />
     <Content Include="TraCuuKNVaDN.aspx" />
     <Content Include="TuongDuongLogic.aspx" />
+    <Content Include="VD.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -246,6 +316,34 @@
     </Compile>
     <Compile Include="BieuDoHasse.aspx.designer.cs">
       <DependentUpon>BieuDoHasse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Boole1.aspx.cs">
+      <DependentUpon>Boole1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Boole1.aspx.designer.cs">
+      <DependentUpon>Boole1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Boole2.aspx.cs">
+      <DependentUpon>Boole2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Boole2.aspx.designer.cs">
+      <DependentUpon>Boole2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Boole3.aspx.cs">
+      <DependentUpon>Boole3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Boole3.aspx.designer.cs">
+      <DependentUpon>Boole3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Boole4.aspx.cs">
+      <DependentUpon>Boole4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Boole4.aspx.designer.cs">
+      <DependentUpon>Boole4.aspx</DependentUpon>
     </Compile>
     <Compile Include="BTVaPP.aspx.cs">
       <DependentUpon>BTVaPP.aspx</DependentUpon>
@@ -471,6 +569,104 @@
     <Compile Include="KNVeCay.aspx.designer.cs">
       <DependentUpon>KNVeCay.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Logic12.aspx.cs">
+      <DependentUpon>Logic12.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Logic12.aspx.designer.cs">
+      <DependentUpon>Logic12.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Logic1.aspx.cs">
+      <DependentUpon>Logic1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Logic1.aspx.designer.cs">
+      <DependentUpon>Logic1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Logic10.aspx.cs">
+      <DependentUpon>Logic10.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Logic10.aspx.designer.cs">
+      <DependentUpon>Logic10.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Logic11.aspx.cs">
+      <DependentUpon>Logic11.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Logic11.aspx.designer.cs">
+      <DependentUpon>Logic11.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Logic13.aspx.cs">
+      <DependentUpon>Logic13.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Logic13.aspx.designer.cs">
+      <DependentUpon>Logic13.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Logic14.aspx.cs">
+      <DependentUpon>Logic14.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Logic14.aspx.designer.cs">
+      <DependentUpon>Logic14.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Logic2.aspx.cs">
+      <DependentUpon>Logic2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Logic2.aspx.designer.cs">
+      <DependentUpon>Logic2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Logic3.aspx.cs">
+      <DependentUpon>Logic3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Logic3.aspx.designer.cs">
+      <DependentUpon>Logic3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Logic4.aspx.cs">
+      <DependentUpon>Logic4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Logic4.aspx.designer.cs">
+      <DependentUpon>Logic4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Logic5.aspx.cs">
+      <DependentUpon>Logic5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Logic5.aspx.designer.cs">
+      <DependentUpon>Logic5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Logic6.aspx.cs">
+      <DependentUpon>Logic6.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Logic6.aspx.designer.cs">
+      <DependentUpon>Logic6.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Logic7.aspx.cs">
+      <DependentUpon>Logic7.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Logic7.aspx.designer.cs">
+      <DependentUpon>Logic7.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Logic8.aspx.cs">
+      <DependentUpon>Logic8.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Logic8.aspx.designer.cs">
+      <DependentUpon>Logic8.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Logic9.aspx.cs">
+      <DependentUpon>Logic9.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Logic9.aspx.designer.cs">
+      <DependentUpon>Logic9.aspx</DependentUpon>
+    </Compile>
     <Compile Include="LopTuongDuong.aspx.cs">
       <DependentUpon>LopTuongDuong.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -590,6 +786,48 @@
     </Compile>
     <Compile Include="PTTroiVaTroiTrucTiep.aspx.designer.cs">
       <DependentUpon>PTTroiVaTroiTrucTiep.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QuanHe1.aspx.cs">
+      <DependentUpon>QuanHe1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QuanHe1.aspx.designer.cs">
+      <DependentUpon>QuanHe1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QuanHe2.aspx.cs">
+      <DependentUpon>QuanHe2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QuanHe2.aspx.designer.cs">
+      <DependentUpon>QuanHe2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QuanHe3.aspx.cs">
+      <DependentUpon>QuanHe3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QuanHe3.aspx.designer.cs">
+      <DependentUpon>QuanHe3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QuanHe4.aspx.cs">
+      <DependentUpon>QuanHe4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QuanHe4.aspx.designer.cs">
+      <DependentUpon>QuanHe4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QuanHe5.aspx.cs">
+      <DependentUpon>QuanHe5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QuanHe5.aspx.designer.cs">
+      <DependentUpon>QuanHe5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QuanHe6.aspx.cs">
+      <DependentUpon>QuanHe6.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QuanHe6.aspx.designer.cs">
+      <DependentUpon>QuanHe6.aspx</DependentUpon>
     </Compile>
     <Compile Include="QuanHeHaiNgoi.aspx.cs">
       <DependentUpon>QuanHeHaiNgoi.aspx</DependentUpon>
@@ -758,6 +996,13 @@
     </Compile>
     <Compile Include="TuongDuongLogic.aspx.designer.cs">
       <DependentUpon>TuongDuongLogic.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VD.aspx.cs">
+      <DependentUpon>VD.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VD.aspx.designer.cs">
+      <DependentUpon>VD.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

@@ -9,14 +9,14 @@
 <body>
     <h2>Quy tắc xác định chu trình Hamilton</h2>
     <h3>Quy tắc:</h3>
-    <p>• Nếu G có đỉnh bậc <2 thì G không có chu trình Hamilton<br />
-• Nếu G có đỉnh bậc =2 thì 2 cạnh kề với nó phải nằm trong chu trình Hamilton<br />
-• Các cạnh thừa (Ngoài 2 cạnh đã chọn trong chu trình Hamilton phải được bỏ đi trong quá trình xác định chu trình)<br />
-• Nếu quá trình xây dựng tạo nên chu trình con, thì đồ thị không có chu trình Hamilton</p>
+    <p>• Nếu G có đỉnh bậc <2 thì G không có chu trình Hamilton</p>
+<p>• Nếu G có đỉnh bậc =2 thì 2 cạnh kề với nó phải nằm trong chu trình Hamilton</p>
+<p>• Các cạnh thừa (Ngoài 2 cạnh đã chọn trong chu trình Hamilton phải được bỏ đi trong quá trình xác định chu trình)</p>
+<p>• Nếu quá trình xây dựng tạo nên chu trình con, thì đồ thị không có chu trình Hamilton</p>
         <h3>Định lý Dirac:</h3>
-    <p>Nếu G là 1 đơn đồ thị có n đỉnh và mỗi đỉnh của G đều có bậc nhỏ hơn n/2 thì G là 1 đồ thị Hamilton<br />
-Đồ thị chứa chu trình Hamilton gọi là <b>đồ thị Hamilton.</b></p>
-    <img src="../Images/Dirac.JPG" alt="Girl in a jacket" style="width:300px;height:200px;">
+    <p>Nếu G là 1 đơn đồ thị có n đỉnh và mỗi đỉnh của G đều có bậc nhỏ hơn n/2 thì G là 1 đồ thị Hamilton</p>
+<p>Đồ thị chứa chu trình Hamilton gọi là <b>đồ thị Hamilton.</b></p>
+    <img src="../Images/Dirac.JPG" alt="Girl in a jacket" style="width:500px;height:400px;">
     <hr />
     <h3>Đề xuất tìm kiếm:</h3>
     <p><a href="DoThiHamilton.aspx" target ="_blank">Khái niệm đồ thị Hamilton</a></p>

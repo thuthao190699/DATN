@@ -19,7 +19,7 @@
     <p> Nếu S <i>hữu hạn</i> và &#8826 là <i>thứ tự toàn phần</i> thì (S, &#8826) luôn có min và max.</p>
     <hr />
     <h3>Ví dụ:</h3>
-    <img src="../Images/PhanTuNhoNhatVaPTLonNhat_b.jpg" alt="Girl in a jacket" style="width:500px;height:400px;">
+    <img src="../Images/PhanTuNhoNhatVaPTLonNhat_b.jpg" alt="Girl in a jacket" style="width:600px;height:500px;">
     <hr />
     <h3>Đề xuất tìm kiếm:</h3>
     <p><a href="PTToiThieuVaPTToiDai.aspx" target ="_blank">Phần tử tối tiểu và phần tử tối đại</a></p>

@@ -12,7 +12,7 @@
     <p>• Nếu đồ thị có cạnh nối từ một đỉnh với chính nó, cạnh này được gọi là khuyên.<br />
  • Nếu hai cạnh V và V’ cùng liên kết với cặp (i,j) thì V và V’ được gọi là cặp cạnh song song với nhau.<br />
 </p>
-        <img src="../Images/CanhSSVaKhuyen.png" alt="Girl in a jacket" style="width:300px;height:200px;">
+        <img src="../Images/CanhSSVaKhuyen.png" alt="Girl in a jacket" style="width:400px;height:300px;">
         <hr />
     <h3>Đề xuất tìm kiếm:</h3>
     <p><a href="DinhKe.aspx" target ="_blank">Đỉnh kề</a></p>

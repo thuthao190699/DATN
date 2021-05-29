@@ -16,7 +16,7 @@
     <p>2. Quan hệ "&#8801, //" không phản xứng.</p>
     <h3>Chú ý:</h3>
     <p>Trái với các quan hệ đối xứng, đối với một quan hệ đối xứng &#8475, mọi bộ phận tự đối xứng của &#8475 điều nằm trong đường chéo &#9651A</p>
-    <img src="../Images/TinhPX.jpg" alt="Girl in a jacket" style="width:300px;height:200px;">
+    <img src="../Images/TinhPX.jpg" alt="Girl in a jacket" style="width:500px;height:400px;">
     <hr />
     <h3>Đề xuất tìm kiếm:</h3>
     <p><a href="TinhPhanXa.aspx" target ="_blank">Tính phản xạ</a></p>
