@@ -18,6 +18,7 @@
         margin-top: 8px;
         margin-left: 60px;
         background-color:pink;
+        text-align:center;
         overflow: scroll;
     }
     .header{
@@ -85,32 +86,32 @@
     <div class="dropdown">
         <button value="logic" class="dropbtn">Cơ sở Logic.</button>
         <div id="logic" class="dropdown-content">
-            <a href="Logic1.aspx">Biến đổi tương đương</a>
-            <a href="Logic2.aspx">Chân trị</a>
-            <a href="Logic3.aspx">Suy luận VD1</a>
-            <a href="Logic4.aspx">Suy luận VD2</a>
-            <a href="Logic5.aspx">Suy luận VD3</a>
-            <a href="Logic6.aspx">Mệnh đề VD1</a>
-            <a href="Logic7.aspx">Mệnh đề VD2</a>
-            <a href="Logic8.aspx">Suy diễn VD1</a>
-            <a href="Logic9.aspx">Suy diễn VD2</a>
-            <a href="Logic10.aspx">Tam đoạn luận</a>
-            <a href="Logic11.aspx">C/m phản chứng</a>
-            <a href="Logic12.aspx">Luật</a>
-            <a href="Logic13.aspx">Biến mệnh đề</a>
-            <a href="Logic14.aspx">Luật và phép biến đổi</a>
+            <a id="1" class="itemClick">Biến đổi tương đương</a>
+            <a id="2" class="itemClick">Chân trị</a>
+            <a id="3" class="itemClick">Suy luận VD1</a>
+            <a id="4" class="itemClick">Suy luận VD2</a>
+            <a id="5" class="itemClick">Suy luận VD3</a>
+            <a id="6" class="itemClick">Mệnh đề VD1</a>
+            <a id="7" class="itemClick">Mệnh đề VD2</a>
+            <a id="8" class="itemClick">Suy diễn VD1</a>
+            <a id="9" class="itemClick">Suy diễn VD2</a>
+            <a id="10" class="itemClick">Tam đoạn luận</a>
+            <a id="11" class="itemClick">C/m phản chứng</a>
+            <a id="12" class="itemClick">Luật</a>
+            <a id="13" class="itemClick">Biến mệnh đề</a>
+            <a id="14" class="itemClick">Luật và phép biến đổi</a>
 
         </div>
     </div>
     <div class="dropdown">
         <button value="quanhe" class="dropbtn">Quan hệ</button>
         <div id="quanhe" class="dropdown-content">
-            <a href="QuanHe1.aspx">Quan hệ tương đương VD1</a>
-            <a href="QuanHe2.aspx">Quan hệ tương đương VD2</a>
-            <a href="QuanHe3.aspx">Quan hệ tương đương VD3</a>
-            <a href="QuanHe4.aspx">Biểu đồ Hasse</a>
-            <a href="QuanHe5.aspx">Quan hệ thứ tự</a>
-            <a href="QuanHe6.aspx">Quan hệ 2 ngôi</a>
+            <a id="15" class="itemClick">Quan hệ tương đương VD1</a>
+            <a id="16" class="itemClick">Quan hệ tương đương VD2</a>
+            <a id="17" class="itemClick">Quan hệ tương đương VD3</a>
+            <a id="18" class="itemClick">Biểu đồ Hasse</a>
+            <a id="19" class="itemClick">Quan hệ thứ tự</a>
+            <a id="20" class="itemClick">Quan hệ 2 ngôi</a>
 
         </div>
     </div>
@@ -118,10 +119,10 @@
        <div class="dropdown">
         <button value="hamboole" class="dropbtn">Đại số Boole.</button>
         <div id="hamboole" class="dropdown-content">
-            <a href="Boole1.aspx">Bảng Kar VD1</a>
-            <a href="Boole2.aspx">Bảng Kar VD2</a>
-            <a href="Boole3.aspx">Bảng Kar VD3</a>
-            <a href="Boole4.aspx">Bảng Kar VD4</a>
+            <a id="21" class="itemClick">Bảng Kar VD1</a>
+            <a id="22" class="itemClick">Bảng Kar VD2</a>
+            <a id="23" class="itemClick">Bảng Kar VD3</a>
+            <a id="24" class="itemClick">Bảng Kar VD4</a>
 
         </div>
     </div>
@@ -129,14 +130,23 @@
       <div class="dropdown">
         <button value="dothi" class="dropbtn">Lý thuyết đồ thị.</button>
         <div id="dothi" class="dropdown-content">
-            <a href="#">Thủ thuật window</a>
-            <a href="#">Download</a>
-            <a href="#">Phần cứng</a>
+            <a id="25" class="itemClick">Chu trình Euler</a>
+            <a id="26" class="itemClick">Duyệt cây khung</a>
+            <a id="27" class="itemClick">Thuật toán Prim</a>
+            <a id="28" class="itemClick">Thuật toán KrusKal</a>
+            <a id="29" class="itemClick">Thuật toán Dijkstra</a>
+            <a id="30" class="itemClick">Thuật toán Ford-Bellman</a>
+
         </div>
     </div>
 </div>
  
-<div class ="content">
+<div id="content-Div" class ="content">
+      <br />
+      <br />
+      <h1> WELCOM TO UNICONS</h1>
+      <br />
+      <img src="../Images/Math.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="600" height="250"/>
 
 </div>
 <script>
@@ -168,6 +178,253 @@
                 contents[i].classList.remove("show");
             }
          }
+    });
+</script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    $(".itemClick").click(function () {
+
+        if (jQuery(this).attr('id') == "1") {
+            $.ajax({
+                url: "Logic1.aspx",
+
+                success: function (result) {
+                    $("#content-Div").html(result);
+                }
+            });
+        } else if (jQuery(this).attr('id') == "2") {
+            $.ajax({
+                url: "Logic2.aspx",
+
+                success: function (result) {
+                    $("#content-Div").html(result);
+                }
+            });
+        } else if (jQuery(this).attr('id') == "3") {
+            $.ajax({
+                url: "Logic3.aspx",
+
+                success: function (result) {
+                    $("#content-Div").html(result);
+                }
+            });
+        } else if (jQuery(this).attr('id') == "4") {
+            $.ajax({
+                url: "Logic4.aspx",
+
+                success: function (result) {
+                    $("#content-Div").html(result);
+                }
+            });
+        } else if (jQuery(this).attr('id') == "5") {
+            $.ajax({
+                url: "Logic5.aspx",
+
+                success: function (result) {
+                    $("#content-Div").html(result);
+                }
+            });
+        } else if (jQuery(this).attr('id') == "6") {
+            $.ajax({
+                url: "Logic6.aspx",
+
+                success: function (result) {
+                    $("#content-Div").html(result);
+                }
+            });
+        } else if (jQuery(this).attr('id') == "7") {
+            $.ajax({
+                url: "Logic7.aspx",
+
+                success: function (result) {
+                    $("#content-Div").html(result);
+                }
+            });
+        } else if (jQuery(this).attr('id') == "8") {
+            $.ajax({
+                url: "Logic8.aspx",
+
+                success: function (result) {
+                    $("#content-Div").html(result);
+                }
+            });
+        } else if (jQuery(this).attr('id') == "9") {
+            $.ajax({
+                url: "Logic9.aspx",
+
+                success: function (result) {
+                    $("#content-Div").html(result);
+                }
+            });
+        } else if (jQuery(this).attr('id') == "10") {
+            $.ajax({
+                url: "Logic10.aspx",
+
+                success: function (result) {
+                    $("#content-Div").html(result);
+                }
+            });
+        } else if (jQuery(this).attr('id') == "11") {
+            $.ajax({
+                url: "Logic11.aspx",
+
+                success: function (result) {
+                    $("#content-Div").html(result);
+                }
+            });
+        } else if (jQuery(this).attr('id') == "12") {
+            $.ajax({
+                url: "Logic12.aspx",
+
+                success: function (result) {
+                    $("#content-Div").html(result);
+                }
+            });
+        } else if (jQuery(this).attr('id') == "13") {
+            $.ajax({
+                url: "Logic13.aspx",
+
+                success: function (result) {
+                    $("#content-Div").html(result);
+                }
+            });
+        } else if (jQuery(this).attr('id') == "14") {
+            $.ajax({
+                url: "Logic14.aspx",
+
+                success: function (result) {
+                    $("#content-Div").html(result);
+                }
+            });
+        } else if (jQuery(this).attr('id') == "15") {
+            $.ajax({
+                url: "QuanHe1.aspx",
+
+                success: function (result) {
+                    $("#content-Div").html(result);
+                }
+            });
+        } else if (jQuery(this).attr('id') == "16") {
+            $.ajax({
+                url: "QuanHe2.aspx",
+
+                success: function (result) {
+                    $("#content-Div").html(result);
+                }
+            });
+        } else if (jQuery(this).attr('id') == "17") {
+            $.ajax({
+                url: "QuanHe3.aspx",
+
+                success: function (result) {
+                    $("#content-Div").html(result);
+                }
+            });
+        } else if (jQuery(this).attr('id') == "18") {
+            $.ajax({
+                url: "QuanHe4.aspx",
+
+                success: function (result) {
+                    $("#content-Div").html(result);
+                }
+            });
+        } else if (jQuery(this).attr('id') == "19") {
+            $.ajax({
+                url: "QuanHe5.aspx",
+
+                success: function (result) {
+                    $("#content-Div").html(result);
+                }
+            });
+        } else if (jQuery(this).attr('id') == "20") {
+            $.ajax({
+                url: "QuanHe6.aspx",
+
+                success: function (result) {
+                    $("#content-Div").html(result);
+                }
+            });
+        } else if (jQuery(this).attr('id') == "21") {
+            $.ajax({
+                url: "Boole1.aspx",
+
+                success: function (result) {
+                    $("#content-Div").html(result);
+                }
+            });
+        } else if (jQuery(this).attr('id') == "22") {
+            $.ajax({
+                url: "Boole2.aspx",
+
+                success: function (result) {
+                    $("#content-Div").html(result);
+                }
+            });
+        } else if (jQuery(this).attr('id') == "23") {
+            $.ajax({
+                url: "Boole3.aspx",
+
+                success: function (result) {
+                    $("#content-Div").html(result);
+                }
+            });
+        } else if (jQuery(this).attr('id') == "24") {
+            $.ajax({
+                url: "Boole4.aspx",
+
+                success: function (result) {
+                    $("#content-Div").html(result);
+                }
+            });
+        } else if (jQuery(this).attr('id') == "25") {
+            $.ajax({
+                url: "DoThi1.aspx",
+
+                success: function (result) {
+                    $("#content-Div").html(result);
+                }
+            });
+        } else if (jQuery(this).attr('id') == "26") {
+            $.ajax({
+                url: "DoThi3.aspx",
+
+                success: function (result) {
+                    $("#content-Div").html(result);
+                }
+            });
+        } else if (jQuery(this).attr('id') == "27") {
+            $.ajax({
+                url: "DoThi4.aspx",
+
+                success: function (result) {
+                    $("#content-Div").html(result);
+                }
+            });
+        } else if (jQuery(this).attr('id') == "28") {
+            $.ajax({
+                url: "DoThi5.aspx",
+
+                success: function (result) {
+                    $("#content-Div").html(result);
+                }
+            });
+        } else if (jQuery(this).attr('id') == "29") {
+            $.ajax({
+                url: "DoThi6.aspx",
+
+                success: function (result) {
+                    $("#content-Div").html(result);
+                }
+            });
+        } else if (jQuery(this).attr('id') == "30") {
+            $.ajax({
+                url: "DoThi7.aspx",
+
+                success: function (result) {
+                    $("#content-Div").html(result);
+                }
+            });
+        }
     });
 </script>
 </body>

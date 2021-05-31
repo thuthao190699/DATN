@@ -6,6 +6,7 @@
 <head>
     <title>Chương trình chính</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <style>
         * {
             box-sizing: border-box;
@@ -49,7 +50,7 @@
             height: 700px;
             color: black;
             overflow: scroll;
-            text-align: justify;
+            text-align: center;
         }
 
         .link {
@@ -125,10 +126,10 @@
 
 
 </head>
-<body style="font-family: Verdana; color: #aaaaaa;">
+<body style="font-family: 'Times New Roman'; color: #aaaaaa;">
 
-    <div style="background-color: #e5e5e5; padding: 15px; text-align: center;">
-        <h1> Hệ thống tra cứu toán Rời Rạc</h1>
+    <div style="background-color: #e5e5e5; padding: 15px; text-align: center; color:black; font-size:15pt;">
+        <h1> Hệ thống tra cứu kiến thức toán Rời Rạc</h1>
     </div>
 
     <div class="t-wrap">
@@ -339,27 +340,27 @@
 
     <div class="link" style="background-color: #e5e5e5; text-align: center; padding: 10px; margin-top: 7px;">
         <div class="left">
-            <a href="#">Tra cứu khái niệm, định nghĩa.</a>
+            <a href="Test.aspx" target ="_blank">Tra cứu khái niệm, định nghĩa.</a>
 
         </div>
 
         <div class="mid">
-            <a href="#">Tra cứu định lý, tính chất.</a>
+            <a href="Test2.aspx" target ="_blank">Tra cứu định lý, tính chất.</a>
 
         </div>
 
         <div class="right">
-            <a href="#">Bài tập, phương pháp.</a>
+            <a href="BTVaPP.aspx" target ="_blank">Bài tập, phương pháp.</a>
 
         </div>
 
     </div>
 
     <div id="content-Div" class="nd" ;style="padding: 1rem; color: black;">
-       Content<br />
-        <br />
-        <br />
-        <h2>asdf</h2>
+       <h1> WELCOM TO UNICONS</h1>
+                <img src="../Images/Math.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="600" height="250">
+
+        <h2>UNICONS chương trình hỗ trợ tìm kiếm kiến thức toán rời rạc.</h2>
 
 
     </div>

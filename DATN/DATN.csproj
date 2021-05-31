@@ -94,6 +94,12 @@
     <Content Include="DinhLyEuler.aspx" />
     <Content Include="DLQuanHeTuongDuong.aspx" />
     <Content Include="DNQuanHeTuongDuong.aspx" />
+    <Content Include="DoThi1.aspx" />
+    <Content Include="DoThi3.aspx" />
+    <Content Include="DoThi4.aspx" />
+    <Content Include="DoThi5.aspx" />
+    <Content Include="DoThi6.aspx" />
+    <Content Include="DoThi7.aspx" />
     <Content Include="DoThiCoHuong.aspx" />
     <Content Include="DoThiEuler.aspx" />
     <Content Include="DoThiHamilton.aspx" />
@@ -142,6 +148,34 @@
     <Content Include="Images\DoThiLienThong_b.png" />
     <Content Include="Images\DoThiRong.png" />
     <Content Include="Images\DoThiVoHuong.png" />
+    <Content Include="Images\DT.jpg" />
+    <Content Include="Images\DT1.jpg" />
+    <Content Include="Images\DT10.jpg" />
+    <Content Include="Images\DT11.jpg" />
+    <Content Include="Images\DT12.JPG" />
+    <Content Include="Images\DT13.JPG" />
+    <Content Include="Images\DT2.jpg" />
+    <Content Include="Images\DT3.jpg" />
+    <Content Include="Images\DT3a.JPG" />
+    <Content Include="Images\DT3b.JPG" />
+    <Content Include="Images\DT3c.JPG" />
+    <Content Include="Images\DT3d.JPG" />
+    <Content Include="Images\DT4.jpg" />
+    <Content Include="Images\DT4a.png" />
+    <Content Include="Images\DT4b.png" />
+    <Content Include="Images\DT4c.JPG" />
+    <Content Include="Images\DT5.jpg" />
+    <Content Include="Images\DT5a.png" />
+    <Content Include="Images\DT5b.png" />
+    <Content Include="Images\DT5c.JPG" />
+    <Content Include="Images\DT6.jpg" />
+    <Content Include="Images\DT6a.png" />
+    <Content Include="Images\DT6b.JPG" />
+    <Content Include="Images\DT7.jpg" />
+    <Content Include="Images\DT7a.JPG" />
+    <Content Include="Images\DT7b.JPG" />
+    <Content Include="Images\DT8.jpg" />
+    <Content Include="Images\DT9.jpg" />
     <Content Include="Images\DTHamilton.JPG" />
     <Content Include="Images\DuongDi_a.png" />
     <Content Include="Images\DuongDi_b.png" />
@@ -177,6 +211,7 @@
     <Content Include="Images\LG8a.JPG" />
     <Content Include="Images\LG9.JPG" />
     <Content Include="Images\LG9a.JPG" />
+    <Content Include="Images\Math.jpg" />
     <Content Include="Images\MaTranLienKe.png" />
     <Content Include="Images\MaTranLienThuoc.JPG" />
     <Content Include="Images\PhanTuNhoNhatVaPTLonNhat_b.jpg" />
@@ -470,6 +505,48 @@
     </Compile>
     <Compile Include="DNQuanHeTuongDuong.aspx.designer.cs">
       <DependentUpon>DNQuanHeTuongDuong.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DoThi1.aspx.cs">
+      <DependentUpon>DoThi1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DoThi1.aspx.designer.cs">
+      <DependentUpon>DoThi1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DoThi3.aspx.cs">
+      <DependentUpon>DoThi3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DoThi3.aspx.designer.cs">
+      <DependentUpon>DoThi3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DoThi4.aspx.cs">
+      <DependentUpon>DoThi4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DoThi4.aspx.designer.cs">
+      <DependentUpon>DoThi4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DoThi5.aspx.cs">
+      <DependentUpon>DoThi5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DoThi5.aspx.designer.cs">
+      <DependentUpon>DoThi5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DoThi6.aspx.cs">
+      <DependentUpon>DoThi6.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DoThi6.aspx.designer.cs">
+      <DependentUpon>DoThi6.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DoThi7.aspx.cs">
+      <DependentUpon>DoThi7.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DoThi7.aspx.designer.cs">
+      <DependentUpon>DoThi7.aspx</DependentUpon>
     </Compile>
     <Compile Include="DoThiCoHuong.aspx.cs">
       <DependentUpon>DoThiCoHuong.aspx</DependentUpon>
