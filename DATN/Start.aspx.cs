@@ -7,9 +7,14 @@ using System.Web.UI.WebControls;
 
 namespace DATN
 {
-    public partial class Start : System.Web.UI.Page
+    public partial class DATN : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void TreeView1_SelectedNodeChanged(object sender, EventArgs e)
         {
 
         }

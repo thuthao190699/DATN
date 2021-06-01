@@ -104,7 +104,7 @@
         </div>
     </div>
     <div class="dropdown">
-        <button value="quanhe" class="dropbtn">Quan hệ</button>
+        <button value="quanhe" class="dropbtn"> Quan hệ</button>
         <div id="quanhe" class="dropdown-content">
             <a id="15" class="itemClick">Quan hệ tương đương VD1</a>
             <a id="16" class="itemClick">Quan hệ tương đương VD2</a>

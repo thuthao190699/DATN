@@ -89,7 +89,7 @@
     <Content Include="DangMenhDe.aspx" />
     <Content Include="DangMenhDeHangDung.aspx" />
     <Content Include="DangMenhDeHangSai.aspx" />
-    <Content Include="DATN.aspx" />
+    <Content Include="Start.aspx" />
     <Content Include="DinhKe.aspx" />
     <Content Include="DinhLyEuler.aspx" />
     <Content Include="DLQuanHeTuongDuong.aspx" />
@@ -297,6 +297,7 @@
     <Content Include="QuyTacMauThuan.aspx" />
     <Content Include="QuyTacModus.aspx" />
     <Content Include="QuyTacXacDinhChuTrinhHamilton.aspx" />
+    <Content Include="DATN.aspx" />
     <Content Include="TamDoanLuan.aspx" />
     <Content Include="Test.aspx" />
     <Content Include="Test2.aspx" />
@@ -471,12 +472,12 @@
     <Compile Include="DangMenhDeHangSai.aspx.designer.cs">
       <DependentUpon>DangMenhDeHangSai.aspx</DependentUpon>
     </Compile>
-    <Compile Include="DATN.aspx.cs">
-      <DependentUpon>DATN.aspx</DependentUpon>
+    <Compile Include="Start.aspx.cs">
+      <DependentUpon>Start.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="DATN.aspx.designer.cs">
-      <DependentUpon>DATN.aspx</DependentUpon>
+    <Compile Include="Start.aspx.designer.cs">
+      <DependentUpon>Start.aspx</DependentUpon>
     </Compile>
     <Compile Include="DinhKe.aspx.cs">
       <DependentUpon>DinhKe.aspx</DependentUpon>
@@ -961,6 +962,13 @@
     </Compile>
     <Compile Include="QuyTacXacDinhChuTrinhHamilton.aspx.designer.cs">
       <DependentUpon>QuyTacXacDinhChuTrinhHamilton.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DATN.aspx.cs">
+      <DependentUpon>DATN.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DATN.aspx.designer.cs">
+      <DependentUpon>DATN.aspx</DependentUpon>
     </Compile>
     <Compile Include="TamDoanLuan.aspx.cs">
       <DependentUpon>TamDoanLuan.aspx</DependentUpon>

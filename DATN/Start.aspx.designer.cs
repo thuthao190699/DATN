@@ -11,7 +11,7 @@ namespace DATN
 {
 
 
-    public partial class Start
+    public partial class DATN
     {
     }
 }
