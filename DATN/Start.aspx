@@ -103,7 +103,7 @@
             nav ul ul {
                 box-shadow: 1px 1px 0 #000;
                 width: 200px;
-                background-color: red;
+                background-color: darkslategrey;
                 position: absolute;
                 top: 110%;
                 left: 0;
@@ -119,7 +119,7 @@
                 }
 
                     nav ul ul li:hover {
-                        background-color: #212121;
+                        background-color: olivedrab;
                     }
             /*Hover and Sub-menu*/
             nav ul li:hover > ul {
