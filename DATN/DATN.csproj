@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="BacCuaDinh.aspx" />
+    <Content Include="BaiTap_PhuongPhap.aspx" />
     <Content Include="BangChanTriCuaMotDangMenhDe.aspx" />
     <Content Include="BaoDongCuaQuanHe.aspx" />
     <Content Include="BienMenhDe.aspx" />
@@ -89,6 +90,7 @@
     <Content Include="DangMenhDe.aspx" />
     <Content Include="DangMenhDeHangDung.aspx" />
     <Content Include="DangMenhDeHangSai.aspx" />
+    <Content Include="DinhLy_TinhChat.aspx" />
     <Content Include="Start.aspx" />
     <Content Include="DinhKe.aspx" />
     <Content Include="DinhLyEuler.aspx" />
@@ -299,7 +301,7 @@
     <Content Include="QuyTacXacDinhChuTrinhHamilton.aspx" />
     <Content Include="DATN.aspx" />
     <Content Include="TamDoanLuan.aspx" />
-    <Content Include="Test.aspx" />
+    <Content Include="KhaiNiem_DinhNghia.aspx" />
     <Content Include="Test2.aspx" />
     <Content Include="ThanhPhanLienThong.aspx" />
     <Content Include="ThuatToanDijkstra.aspx" />
@@ -324,6 +326,13 @@
     </Compile>
     <Compile Include="BacCuaDinh.aspx.designer.cs">
       <DependentUpon>BacCuaDinh.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BaiTap_PhuongPhap.aspx.cs">
+      <DependentUpon>BaiTap_PhuongPhap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BaiTap_PhuongPhap.aspx.designer.cs">
+      <DependentUpon>BaiTap_PhuongPhap.aspx</DependentUpon>
     </Compile>
     <Compile Include="BangChanTriCuaMotDangMenhDe.aspx.cs">
       <DependentUpon>BangChanTriCuaMotDangMenhDe.aspx</DependentUpon>
@@ -471,6 +480,13 @@
     </Compile>
     <Compile Include="DangMenhDeHangSai.aspx.designer.cs">
       <DependentUpon>DangMenhDeHangSai.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DinhLy_TinhChat.aspx.cs">
+      <DependentUpon>DinhLy_TinhChat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DinhLy_TinhChat.aspx.designer.cs">
+      <DependentUpon>DinhLy_TinhChat.aspx</DependentUpon>
     </Compile>
     <Compile Include="Start.aspx.cs">
       <DependentUpon>Start.aspx</DependentUpon>
@@ -977,12 +993,12 @@
     <Compile Include="TamDoanLuan.aspx.designer.cs">
       <DependentUpon>TamDoanLuan.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Test.aspx.cs">
-      <DependentUpon>Test.aspx</DependentUpon>
+    <Compile Include="KhaiNiem_DinhNghia.aspx.cs">
+      <DependentUpon>KhaiNiem_DinhNghia.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Test.aspx.designer.cs">
-      <DependentUpon>Test.aspx</DependentUpon>
+    <Compile Include="KhaiNiem_DinhNghia.aspx.designer.cs">
+      <DependentUpon>KhaiNiem_DinhNghia.aspx</DependentUpon>
     </Compile>
     <Compile Include="Test2.aspx.cs">
       <DependentUpon>Test2.aspx</DependentUpon>

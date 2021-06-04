@@ -1,10 +1,10 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Test.aspx.cs" Inherits="DATN.Test" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="BaiTap_PhuongPhap.aspx.cs" Inherits="DATN.BaiTap_PhuongPhap" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Tra cứu định nghĩa, khái niệm.</title>
+    <title>Bài tập và Phương pháp.</title>
 <style>
 * {
     margin:0px;
@@ -21,20 +21,19 @@
    width:100%;
     box-shadow:0px 1px 3px rgba(0,0,0,0.2); 
     background:#3e3436;*/
-   background-color: #e5e5e5;
-  padding: 8px;
-  margin-top: 7px;
+   background-color: #5C4A72;
+  /*padding: 8px;*/
   display: block;
   width: 100%;
-  color: black;
+  color: white;
   text-align:center;
 
 }
 .content{
-        width: 90%;
+        width: 100%;
         height: 800px;
         margin-top: 8px;
-        margin-left: 60px;
+       /* margin-left: 60px;*/
         background-color:gainsboro;
         overflow: scroll;
         text-align:center;
@@ -52,7 +51,6 @@
     margin:0px auto;
     background:#bf5c71;
     height: 50px;
-    margin-top: 20px;
 }
 .menu li {
     margin:0px;
@@ -118,8 +116,8 @@
 </style>
 </head>
 <body>
-<div class = "header">
-  <h1>Tra cứu khái niệm, định nghĩa.</h1>
+<div class = "header"; style="padding:10px 0;">
+  <h1>Bài tập và phương pháp giải.</h1>
 </div>
    <div class="wrapper">
     <nav class="menu">
@@ -128,61 +126,55 @@
                 <a href="#">Cơ sở Logic <span class="arrow">&#9660;</span></a>
  
                 <ul class="sub-menu">
-                    <li><a id="1" class="itemClick">Khái niệm mệnh đề Logic</a></li>
-                    <li><a id="2" class="itemClick">Khái niệm chân trị của mệnh đề</a></li>
-                    <li><a id="3" class="itemClick">Mệnh đề sơ cấp</a></li>
-                    <li><a id="4" class="itemClick">Mệnh đề phức hợp</a></li>
-                    <li><a id="5" class="itemClick">Biến mệnh đề</a></li>
-                    <li><a id="6" class="itemClick">Dạng mệnh đề</a></li>
-                    <li><a id="7" class="itemClick">Bảng chân trị của 1 dạng mệnh đề</a></li>
-                    <li><a id="8" class="itemClick">Dạng mệnh đề hằng đúng</a></li>
-                    <li><a id="9" class="itemClick">Dạng mệnh đề hằng sai</a></li>
-                    <li><a id="10" class="itemClick">Các quy tắc suy diễn</a></li>
+                   <li><a id="1" class="itemClick">Biến đổi tương đương</a></li> 
+                   <li><a id="2" class="itemClick">Chân trị</a></li> 
+                   <li><a id="3" class="itemClick">Suy luận VD1</a></li> 
+                   <li><a id="4" class="itemClick">Suy luận VD2</a></li> 
+                   <li><a id="5" class="itemClick">Suy luận VD3</a></li> 
+                   <li><a id="6" class="itemClick">Mệnh đề VD1</a></li> 
+                   <li><a id="7" class="itemClick">Mệnh đề VD2</a></li> 
+                   <li><a id="8" class="itemClick">Suy diễn VD1</a></li> 
+                   <li><a id="9" class="itemClick">Suy diễn VD2</a></li> 
+                   <li><a id="10" class="itemClick">Tam đoạn luận</a></li> 
+                   <li><a id="11" class="itemClick">Chứng minh phản chứng</a></li> 
+                   <li><a id="12" class="itemClick">Luật</a></li> 
+                   <li><a id="13" class="itemClick">Biến mệnh đề</a></li> 
+                   <li><a id="14" class="itemClick">Luật và phép biến đổi</a></li> 
                 </ul>
             </li>
             <li>
                 <a href="#">Quan hệ <span class="arrow">&#9660;</span></a>
  
                 <ul class="sub-menu">
-                    <li><a id="11" class="itemClick">Định nghĩa quan hệ 2 ngôi</a></li>
-                    <li><a id="12" class="itemClick">Lớp tương đương</a></li>
-                    <li><a id="13" class="itemClick">Định nghĩa quan hệ thứ tự</a></li>
-                    <li><a id="14" class="itemClick">Quan hệ thứ tự toàn phần</a></li>
-                    <li><a id="15" class="itemClick">Quan hệ thứ tự bán phần</a></li>
-                    <li><a id="16" class="itemClick">Khái niệm kề nhau trong quan hệ thứ tự</a></li>
-                    <li><a id="17" class="itemClick">Phần tử trội và trội trực tiếp</a></li>
-                    <li><a id="18" class="itemClick">Biểu đồ Hasse</a></li>
-                    <li><a id="19" class="itemClick">Phần tử nhỏ nhất và phần tử lớn nhất</a></li>
-                    <li><a id="20" class="itemClick">Phần tử tối tiểu và phần tử tối đại</a></li>
+                  <li><a id="15" class="itemClick">Quan hệ tương đương VD1</a></li>  
+                  <li><a id="16" class="itemClick">Quan hệ tương đương VD2</a></li>  
+                  <li><a id="17" class="itemClick">Quan hệ tương đương VD3</a></li> 
+                  <li><a id="18" class="itemClick">Biểu đồ Hasse</a></li>  
+                  <li><a id="19" class="itemClick">Quan hệ thứ tự</a></li>  
+                  <li><a id="20" class="itemClick">Quan hệ 2 ngôi</a></li>  
 
                 </ul>
             </li>
             <li>
-                <a href="#">Hàm số Boole <span class="arrow">&#9660;</span></a>
+                <a href="#">Đại số Boole <span class="arrow">&#9660;</span></a>
  
                 <ul class="sub-menu">
-                    <li><a id="21" class="itemClick">Khái niệm về hàm đại số Boole</a></li>
-                    <li><a id="22" class="itemClick">Tính đối ngẫu đại số Boole và nguyên lý đối ngẫu</a></li>
-                    <li><a id="23" class="itemClick">Khai triển tổng các tích</a></li>
-                    <li><a id="24" class="itemClick">Khái niệm mạch Logic</a></li>
+                   <li><a id="21" class="itemClick">Bảng Kar VD1</a></li> 
+                   <li><a id="22" class="itemClick">Bảng Kar VD2</a></li> 
+                   <li><a id="23" class="itemClick">Bảng Kar VD3</a></li> 
+                   <li><a id="24" class="itemClick">Bảng Kar VD4</a></li> 
                 </ul>
             </li>
             <li>
                 <a href="#">Lý thuyết đồ thị <span class="arrow">&#9660;</span></a>
  
                 <ul class="sub-menu">
-                    <li><a id="25" class="itemClick">Đồ thị có hướng</a></li>
-                    <li><a id="26" class="itemClick">Đồ thị vô hướng</a></li>
-                    <li><a id="27" class="itemClick">Cạnh song song và khuyên</a></li>
-                    <li><a id="28" class="itemClick">Đỉnh kề</a></li>
-                    <li><a id="29" class="itemClick">Bậc của đỉnh</a></li>
-                    <li><a id="30" class="itemClick">Đường đi</a></li>
-                    <li><a id="31" class="itemClick">Ma trận liền kề</a></li>
-                    <li><a id="32" class="itemClick">Ma trận liên thuộc</a></li>
-                    <li><a id="33" class="itemClick">Các khái niệm về đồ thị Euler</a></li>
-                    <li><a id="34" class="itemClick">Khái niệm đồ thị Hamilton</a></li>
-                    <li><a id="35" class="itemClick">Khái niệm về cây</a></li>
-                    <li><a id="36" class="itemClick">Cây khung nhỏ nhất</a></li>
+                  <li><a id="25" class="itemClick">Chu trình Euler</a></li>  
+                  <li><a id="26" class="itemClick">Duyệt cây khung</a></li> 
+                  <li><a id="27" class="itemClick">Thuật toán Prim</a></li>  
+                  <li><a id="28" class="itemClick">Thuật toán KrusKal</a></li>  
+                  <li> <a id="29" class="itemClick">Thuật toán Dijkstra</a></li> 
+                  <li><a id="30" class="itemClick">Thuật toán Ford-Bellman</a></li>  
 
                 </ul>
             </li>
@@ -193,10 +185,10 @@
   <div id="content-Div" class ="content">
       <br />
       <br />
-       <h1> WELCOM TO UNICONS</h1>
+       <h1 style="text-align: center;"> WELCOM TO UNICONS</h1>
       <br />
 
-          <img src="../Images/Math.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="600" height="250"/>
+          <img src="../Images/Math.jpg" class="img-responsive img-circle margin" style="display:block; margin-left:auto; margin-right:auto;" alt="Bird" width="600" height="350"/>
 
   </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -205,7 +197,7 @@
 
         if (jQuery(this).attr('id') == "1") {
             $.ajax({
-                url: "KhaiNiemMenhDeLogic.aspx",
+                url: "Logic1.aspx",
 
                 success: function (result) {
                     $("#content-Div").html(result);
@@ -213,7 +205,7 @@
             });
         } else if (jQuery(this).attr('id') == "2") {
             $.ajax({
-                url: "KNChanTriMenhDe.aspx",
+                url: "Logic2.aspx",
 
                 success: function (result) {
                     $("#content-Div").html(result);
@@ -221,7 +213,7 @@
             });
         } else if (jQuery(this).attr('id') == "3") {
             $.ajax({
-                url: "MenhDeSoCap.aspx",
+                url: "Logic3.aspx",
 
                 success: function (result) {
                     $("#content-Div").html(result);
@@ -229,7 +221,7 @@
             });
         } else if (jQuery(this).attr('id') == "4") {
             $.ajax({
-                url: "MenhDePhucHop.aspx",
+                url: "Logic4.aspx",
 
                 success: function (result) {
                     $("#content-Div").html(result);
@@ -237,7 +229,7 @@
             });
         } else if (jQuery(this).attr('id') == "5") {
             $.ajax({
-                url: "BienMenhDe.aspx",
+                url: "Logic5.aspx",
 
                 success: function (result) {
                     $("#content-Div").html(result);
@@ -245,7 +237,7 @@
             });
         } else if (jQuery(this).attr('id') == "6") {
             $.ajax({
-                url: "DangMenhDe.aspx",
+                url: "Logic6.aspx",
 
                 success: function (result) {
                     $("#content-Div").html(result);
@@ -253,7 +245,7 @@
             });
         } else if (jQuery(this).attr('id') == "7") {
             $.ajax({
-                url: "BangChanTriCuaMotDangMenhDe.aspx",
+                url: "Logic7.aspx",
 
                 success: function (result) {
                     $("#content-Div").html(result);
@@ -261,7 +253,7 @@
             });
         } else if (jQuery(this).attr('id') == "8") {
             $.ajax({
-                url: "DangMenhDeHangDung.aspx",
+                url: "Logic8.aspx",
 
                 success: function (result) {
                     $("#content-Div").html(result);
@@ -269,7 +261,7 @@
             });
         } else if (jQuery(this).attr('id') == "9") {
             $.ajax({
-                url: "DangMenhDeHangSai.aspx",
+                url: "Logic9.aspx",
 
                 success: function (result) {
                     $("#content-Div").html(result);
@@ -277,7 +269,7 @@
             });
         } else if (jQuery(this).attr('id') == "10") {
             $.ajax({
-                url: "CacQuyTacSuyDien.aspx",
+                url: "Logic10.aspx",
 
                 success: function (result) {
                     $("#content-Div").html(result);
@@ -285,7 +277,7 @@
             });
         } else if (jQuery(this).attr('id') == "11") {
             $.ajax({
-                url: "QuanHeHaiNgoi.aspx",
+                url: "Logic11.aspx",
 
                 success: function (result) {
                     $("#content-Div").html(result);
@@ -293,7 +285,7 @@
             });
         } else if (jQuery(this).attr('id') == "12") {
             $.ajax({
-                url: "LopTuongDuong.aspx",
+                url: "Logic12.aspx",
 
                 success: function (result) {
                     $("#content-Div").html(result);
@@ -301,7 +293,7 @@
             });
         } else if (jQuery(this).attr('id') == "13") {
             $.ajax({
-                url: "QuanHeThuTu.aspx",
+                url: "Logic13.aspx",
 
                 success: function (result) {
                     $("#content-Div").html(result);
@@ -309,7 +301,7 @@
             });
         } else if (jQuery(this).attr('id') == "14") {
             $.ajax({
-                url: "QuanHeThuTuToanPhan.aspx",
+                url: "Logic14.aspx",
 
                 success: function (result) {
                     $("#content-Div").html(result);
@@ -317,7 +309,7 @@
             });
         } else if (jQuery(this).attr('id') == "15") {
             $.ajax({
-                url: "QuanHeThuTuBanPhan.aspx",
+                url: "QuanHe1.aspx",
 
                 success: function (result) {
                     $("#content-Div").html(result);
@@ -325,7 +317,7 @@
             });
         } else if (jQuery(this).attr('id') == "16") {
             $.ajax({
-                url: "KNKeNhauTrongQuanHeThuTu.aspx",
+                url: "QuanHe2.aspx",
 
                 success: function (result) {
                     $("#content-Div").html(result);
@@ -333,7 +325,7 @@
             });
         } else if (jQuery(this).attr('id') == "17") {
             $.ajax({
-                url: "PTTroiVaTroiTrucTiep.aspx",
+                url: "QuanHe3.aspx",
 
                 success: function (result) {
                     $("#content-Div").html(result);
@@ -341,7 +333,7 @@
             });
         } else if (jQuery(this).attr('id') == "18") {
             $.ajax({
-                url: "BieuDoHasse.aspx",
+                url: "QuanHe4.aspx",
 
                 success: function (result) {
                     $("#content-Div").html(result);
@@ -349,7 +341,7 @@
             });
         } else if (jQuery(this).attr('id') == "19") {
             $.ajax({
-                url: "PhanTuNNVaPhanTuLN.aspx",
+                url: "QuanHe5.aspx",
 
                 success: function (result) {
                     $("#content-Div").html(result);
@@ -357,7 +349,7 @@
             });
         } else if (jQuery(this).attr('id') == "20") {
             $.ajax({
-                url: "PTToiThieuVaPTToiDai.aspx",
+                url: "QuanHe6.aspx",
 
                 success: function (result) {
                     $("#content-Div").html(result);
@@ -365,7 +357,7 @@
             });
         } else if (jQuery(this).attr('id') == "21") {
             $.ajax({
-                url: "KNHamDaiSoBoole.aspx",
+                url: "Boole1.aspx",
 
                 success: function (result) {
                     $("#content-Div").html(result);
@@ -373,7 +365,7 @@
             });
         } else if (jQuery(this).attr('id') == "22") {
             $.ajax({
-                url: "TinhDoiNgauVaNguyenLyDoiNgau.aspx",
+                url: "Boole2.aspx",
 
                 success: function (result) {
                     $("#content-Div").html(result);
@@ -381,7 +373,7 @@
             });
         } else if (jQuery(this).attr('id') == "23") {
             $.ajax({
-                url: "KhaiTrienTongCacTich.aspx",
+                url: "Boole3.aspx",
 
                 success: function (result) {
                     $("#content-Div").html(result);
@@ -389,7 +381,7 @@
             });
         } else if (jQuery(this).attr('id') == "24") {
             $.ajax({
-                url: "MachLogic.aspx",
+                url: "Boole4.aspx",
 
                 success: function (result) {
                     $("#content-Div").html(result);
@@ -397,7 +389,7 @@
             });
         } else if (jQuery(this).attr('id') == "25") {
             $.ajax({
-                url: "DoThiCoHuong.aspx",
+                url: "DoThi1.aspx",
 
                 success: function (result) {
                     $("#content-Div").html(result);
@@ -405,7 +397,7 @@
             });
         } else if (jQuery(this).attr('id') == "26") {
             $.ajax({
-                url: "DoThiVoHuong.aspx",
+                url: "DoThi3.aspx",
 
                 success: function (result) {
                     $("#content-Div").html(result);
@@ -413,7 +405,7 @@
             });
         } else if (jQuery(this).attr('id') == "27") {
             $.ajax({
-                url: "CanhSongSongVaKhuyen.aspx",
+                url: "DoThi4.aspx",
 
                 success: function (result) {
                     $("#content-Div").html(result);
@@ -421,7 +413,7 @@
             });
         } else if (jQuery(this).attr('id') == "28") {
             $.ajax({
-                url: "DinhKe.aspx",
+                url: "DoThi5.aspx",
 
                 success: function (result) {
                     $("#content-Div").html(result);
@@ -429,7 +421,7 @@
             });
         } else if (jQuery(this).attr('id') == "29") {
             $.ajax({
-                url: "BacCuaDinh.aspx",
+                url: "DoThi6.aspx",
 
                 success: function (result) {
                     $("#content-Div").html(result);
@@ -437,63 +429,14 @@
             });
         } else if (jQuery(this).attr('id') == "30") {
             $.ajax({
-                url: "DuongDi.aspx",
+                url: "DoThi7.aspx",
 
                 success: function (result) {
                     $("#content-Div").html(result);
                 }
             });
-        } else if (jQuery(this).attr('id') == "31") {
-            $.ajax({
-                url: "MaTranLienKe.aspx",
-
-                success: function (result) {
-                    $("#content-Div").html(result);
-                }
-            });
-        } else if (jQuery(this).attr('id') == "32") {
-            $.ajax({
-                url: "MaTranLienThuoc.aspx",
-
-                success: function (result) {
-                    $("#content-Div").html(result);
-                }
-            });
-        } else if (jQuery(this).attr('id') == "33") {
-            $.ajax({
-                url: "DoThiEuler.aspx",
-
-                success: function (result) {
-                    $("#content-Div").html(result);
-                }
-            });
-        } else if (jQuery(this).attr('id') == "34") {
-            $.ajax({
-                url: "DoThiHamilton.aspx",
-
-                success: function (result) {
-                    $("#content-Div").html(result);
-                }
-            });
-        } else if (jQuery(this).attr('id') == "35") {
-            $.ajax({
-                url: "KNVeCay.aspx",
-
-                success: function (result) {
-                    $("#content-Div").html(result);
-                }
-            });
-        } else if (jQuery(this).attr('id') == "36") {
-            $.ajax({
-                url: "CayKhungNhoNhat.aspx",
-
-                success: function (result) {
-                    $("#content-Div").html(result);
-                }
-            });
-        } 
+        }
     });
-
 </script>
 </body>
 </html>

@@ -18,17 +18,16 @@
             text-align: center;
             font-family:'Times New Roman';
             font-size:15pt;
-            /*text-decoration:none;*/
         }
 
-        .menu a {
+        /*.menu a {
             background-color: #e5e5e5;
             padding: 8px;
             margin-top: 7px;
             display: block;
             width: 100%;
             color: black;
-        }
+        }*/
 
         .mid {
             float: left;
@@ -51,19 +50,24 @@
         }
 
         .nd {
-            background-color: pink;
+            background-color: #b3d1ff;
             padding: 8px;
-            margin-top: 10px;
-            margin-left: 50px;
-            width: 95%;
+            /*margin-top: 10px;*/
+           /* margin-left: 50px;*/
+            width: 100%;
             height: 700px;
             color: black;
             overflow: scroll;
-            text-align: center;
+            /*text-align: center;*/
         }
 
         .link {
             height: 50px;
+        }
+        .link a{
+            color: white;
+            text-decoration:none;
+
         }
 
         .t-wrap {
@@ -74,7 +78,8 @@
 
         nav {
             text-align: center;
-            background-color: #212121;
+            background-color: darkslategrey;
+            font-family:'Times New Roman';
         }
 
             nav ul li a {
@@ -119,7 +124,7 @@
                 }
 
                     nav ul ul li:hover {
-                        background-color: olivedrab;
+                        background-color: #009900;
                     }
             /*Hover and Sub-menu*/
             nav ul li:hover > ul {
@@ -132,17 +137,24 @@
                 top: 0 !important;
                 left: 100%;
             }
+        .auto-style1 {
+            width: 100%;
+            margin: auto;
+            font-size: 13pt;
+            height: 42px;
+        }
     </style>
 
 
 </head>
 <body style="font-family: 'Times New Roman'; color: #00ff21;">
 
-    <div style="background-color: #e5e5e5; padding: 15px; text-align: center; color:black; font-size:15pt;">
-        <h1> Hệ thống tra cứu kiến thức toán Rời Rạc</h1>
+    <div style="background-color: #ff3333; padding: 2px; text-align: center; color:white; font-size:13pt;">
+        <h1>UNICONS </h1>
+        <h2 >Hệ thống tra cứu kiến thức toán Rời Rạc</h2>
     </div>
 
-    <div class="t-wrap">
+    <div class="auto-style1">
         <nav>
             <ul>
                 <li><a href="#">Chương 1:Cơ sở Logic</a>
@@ -348,29 +360,27 @@
         </nav>
     </div>
 
-    <div class="link" style="background-color: #e5e5e5; text-align: center; padding: 10px; margin-top: 7px;">
+    <div class="link" style="background-color: #ff3333; text-align: center; padding: 10px; ">
         <div class="left">
-            <a href="Test.aspx" target ="_blank">Tra cứu khái niệm, định nghĩa.</a>
+            <a href="KhaiNiem_DinhNghia.aspx" target ="_blank">Tra cứu khái niệm, định nghĩa.</a>
 
         </div>
 
         <div class="mid">
-            <a href="Test2.aspx" target ="_blank">Tra cứu định lý, tính chất.</a>
+            <a href="DinhLy_TinhChat.aspx" target ="_blank">Tra cứu định lý, tính chất.</a>
 
         </div>
 
         <div class="right">
-            <a href="BTVaPP.aspx" target ="_blank">Bài tập, phương pháp.</a>
+            <a href="BaiTap_PhuongPhap.aspx" target ="_blank">Bài tập, phương pháp.</a>
 
         </div>
 
     </div>
 
-    <div id="content-Div" class="nd" ;style="padding: 1rem; color: black;">
-       <h1> WELCOM TO UNICONS</h1>
-                <img src="../Images/Math.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="600" height="250">
-
-        <h2>UNICONS chương trình hỗ trợ tìm kiếm kiến thức toán rời rạc.</h2>
+    <div id="content-Div" class="nd" ;style="padding: 1rem; color: #141A46;">
+       <h1 style ="text-align:center;"> WELCOM TO UNICONS</h1>
+                <img src="../Images/Math.jpg" class="img-responsive img-circle margin" style="display:block;margin-left:auto; margin-right:auto; " alt="Bird" width="650" height="400">
 
 
     </div>

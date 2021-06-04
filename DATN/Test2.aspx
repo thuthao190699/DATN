@@ -14,10 +14,10 @@
     background-color:black;
 }
     .content{
-        width: 95%;
+        width: 100%;
         height: 900px;
         margin-top: 8px;
-        margin-left: 40px;
+       /* margin-left: 40px;*/
         background-color:gainsboro;
         text-align:center;
         overflow: scroll;
@@ -28,7 +28,7 @@
         height:60px;
         text-align:center;
         margin-bottom:5px;
-        padding: 0 15px;
+       /*padding: 0 15px;*/
         background-color:gray;
     }
     

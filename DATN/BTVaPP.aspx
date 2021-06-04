@@ -13,21 +13,21 @@
     background-color:black;
 }
     .content{
-        width: 90%;
+        width: 100%;
         height: 800px;
-        margin-top: 8px;
-        margin-left: 60px;
+        margin-top: 10px;
+        /*margin-left: 60px;*/
         background-color:pink;
         text-align:center;
         overflow: scroll;
     }
     .header{
         width:100%;
-        margin-top: 5px;
+        /*margin-top: 5px;*/
         height:60px;
         text-align:center;
-        margin-bottom:5px;
-        padding: 0 15px;
+        /*margin-bottom:5px;*/
+        /*padding: 0 15px;*/
         background-color:gray;
     }
 /* Dropdown Button */
@@ -49,6 +49,7 @@
 .dropdown {
     position: relative;
     display: inline-block;
+   /* padding: 0 5px;*/
 }
  
 /* Dropdown Content, mặc định sẽ được ẩn đi */
