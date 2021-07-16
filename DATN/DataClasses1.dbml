@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="DB_DATN" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\DB_DATN.mdf;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="DB_DATNConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Bai" Member="Bais">
+    <Type Name="Bai">
+      <Column Name="MaBai" Type="System.String" DbType="NVarChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TenBai" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="MaChuong" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Association Name="Bai_Muc" Member="Mucs" ThisKey="MaBai" OtherKey="MaBai" Type="Muc" />
+      <Association Name="Chuong_Bai" Member="Chuong" ThisKey="MaChuong" OtherKey="MaChuong" Type="Chuong" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Chuong" Member="Chuongs">
+    <Type Name="Chuong">
+      <Column Name="MaChuong" Type="System.String" DbType="NVarChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TenChuong" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Association Name="Chuong_Bai" Member="Bais" ThisKey="MaChuong" OtherKey="MaChuong" Type="Bai" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DoiTuongLienQuan" Member="DoiTuongLienQuans">
+    <Type Name="DoiTuongLienQuan">
+      <Column Name="MaKienThuc1" Type="System.String" DbType="NVarChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MaLoaiLienQuan" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Association Name="TuDienKienThuc_DoiTuongLienQuan" Member="TuDienKienThuc" ThisKey="MaKienThuc1" OtherKey="MaKienThuc" Type="TuDienKienThuc" IsForeignKey="true" />
+      <Association Name="LoaiLienQuan_DoiTuongLienQuan" Member="LoaiLienQuan" ThisKey="MaLoaiLienQuan" OtherKey="MaLoaiLienQuan" Type="LoaiLienQuan" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Muc" Member="Mucs">
+    <Type Name="Muc">
+      <Column Name="MaMuc" Type="System.String" DbType="NVarChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TenMuc" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="MaBai" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Association Name="Muc_TuDienKienThuc" Member="TuDienKienThucs" ThisKey="MaMuc" OtherKey="MaMuc" Type="TuDienKienThuc" />
+      <Association Name="Bai_Muc" Member="Bai" ThisKey="MaBai" OtherKey="MaBai" Type="Bai" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.LoaiKienThuc" Member="LoaiKienThucs">
+    <Type Name="LoaiKienThuc">
+      <Column Name="MaLoaiKienThuc" Type="System.String" DbType="NVarChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TenLoaiKienThuc" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Association Name="LoaiKienThuc_TuDienKienThuc" Member="TuDienKienThucs" ThisKey="MaLoaiKienThuc" OtherKey="MaLoaiKienThuc" Type="TuDienKienThuc" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TuDienKienThuc" Member="TuDienKienThucs">
+    <Type Name="TuDienKienThuc">
+      <Column Name="MaKienThuc" Type="System.String" DbType="NVarChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TenKienThuc" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="NoiDungKienThuc" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="MaMuc" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="MaLoaiKienThuc" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Association Name="TuDienKienThuc_DoiTuongLienQuan" Member="DoiTuongLienQuan" ThisKey="MaKienThuc" OtherKey="MaKienThuc1" Type="DoiTuongLienQuan" Cardinality="One" />
+      <Association Name="LoaiKienThuc_TuDienKienThuc" Member="LoaiKienThuc" ThisKey="MaLoaiKienThuc" OtherKey="MaLoaiKienThuc" Type="LoaiKienThuc" IsForeignKey="true" />
+      <Association Name="Muc_TuDienKienThuc" Member="Muc" ThisKey="MaMuc" OtherKey="MaMuc" Type="Muc" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.LoaiLienQuan" Member="LoaiLienQuans">
+    <Type Name="LoaiLienQuan">
+      <Column Name="MaLoaiLienQuan" Type="System.String" DbType="NVarChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TenLoaiLienQuan" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Association Name="LoaiLienQuan_DoiTuongLienQuan" Member="DoiTuongLienQuans" ThisKey="MaLoaiLienQuan" OtherKey="MaLoaiLienQuan" Type="DoiTuongLienQuan" />
+    </Type>
+  </Table>
+</Database>

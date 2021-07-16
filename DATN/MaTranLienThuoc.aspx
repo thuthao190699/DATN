@@ -9,13 +9,12 @@
 <body>
     <h2>Ma trận liên thuộc.</h2>
     <h3>Định nghĩa:</h3>
-    <p>Ma trận liên thuộc của đồ thị có hướng G=(V,E) gồm n đỉnh, m cạnh (cung) là ma trận gồm n hàng tương ứng n đỉnh<br />
-        m cột tương ứng m cạnh (cung) , A = aij với aij được định nghĩa: <br />
-• Aij = 1 nếu cạnh Ei đi ra khỏi đỉnh V(i) <br />
-• Aij = -1 nếu cạnh Ei đi vào đỉnh V(i)<br />
-• Aij = 0 trong các trường hợp còn lại
-</p>
-        <img src="../Images/MaTranLienThuoc.JPG" alt="Girl in a jacket" style="width:300px;height:200px;">
+    <p>Ma trận liên thuộc của đồ thị có hướng G=(V,E) gồm n đỉnh, m cạnh (cung) là ma trận gồm n hàng tương ứng n đỉnh.</p>
+    <p>m cột tương ứng m cạnh (cung) , A = aij với aij được định nghĩa: </p>
+<p>• Aij = 1 nếu cạnh Ei đi ra khỏi đỉnh V(i) </p>
+<p>• Aij = -1 nếu cạnh Ei đi vào đỉnh V(i)</p>
+<p>• Aij = 0 trong các trường hợp còn lại.</p>
+        <img src="../Images/MaTranLienThuoc.JPG" alt="Girl in a jacket" style="width:300px;height:200px;"/>
 
     <hr />
     <h3>Đề xuất tìm kiếm:</h3>

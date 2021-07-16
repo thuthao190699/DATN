@@ -10,6 +10,17 @@
     margin:0px;
     padding:0px;
 }
+::-webkit-scrollbar
+            {
+            width: 0 !important;
+            display: none;
+            width:10px;
+            background: lightgrey;
+            }
+::-webkit-scrollbar-thumb{
+            background-color:grey;
+            border-radius: 5px;
+        }
 .clearfix:after {
     display:block;
     clear:both;          
@@ -21,22 +32,31 @@
    width:100%;
     box-shadow:0px 1px 3px rgba(0,0,0,0.2); 
     background:#3e3436;*/
-   background-color: #4d4d33;
+   background-color: #4ECDC4;
   /*padding: 8px;*/
   display: block;
   width: 100%;
-  color: white;
+  color: black;
   text-align:center;
 
 }
 .content{
         width: 100%;
-        height: 800px;
+        height: 700px;
         margin-top: 8px;
        /* margin-left: 60px;*/
         background-color:gainsboro;
-        overflow: scroll;
-        text-align:center;
+        overflow-y: scroll;
+        /*text-align:center;*/
+}
+.content1{
+        width: 80%;
+        height: 600px;
+        margin-top: 50px;
+        margin-left: 140px;
+        background-color:gainsboro;
+        overflow-y: scroll;
+        /*text-align:center;*/
 }
 
 .wrapper {
@@ -79,7 +99,7 @@
     font-size:19px;
 }
 .menu > ul > li > a {
-    padding:10px 40px;
+    padding:10px 65px;
     display:inline-block;
     color:white;
 }
@@ -189,15 +209,16 @@
         </ul>
     </nav>
     </div>
-  <div id="content-Div" class ="content">
-      <br />
-      <br />
-       <h1 style="text-align:center; "> WELCOM TO UNICONS</h1>
-      <br />
-
-          <img src="../Images/Math.jpg" class="img-responsive img-circle margin" style="display:block;margin-left:auto; margin-right:auto;" alt="Bird" width="600" height="350"/>
-
-  </div>
+    <div class ="content">
+        <div id="content-Div" class ="content1">
+         <br />
+         <br />
+         <h1 style="text-align:center; "> WELCOM TO UNICONS</h1>
+         <br />
+         <img src="../Images/Math.jpg" class="img-responsive img-circle margin" style="display:block;margin-left:auto; margin-right:auto;" alt="Bird" width="600" height="350"/>
+        </div>
+    </div>
+  
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
     $(".itemClick").click(function () {

@@ -11,6 +11,17 @@
         * {
             box-sizing: border-box;
         }
+        ::-webkit-scrollbar
+            {
+            width: 0 !important;
+            display: none;
+            width:10px;
+            background: lightgrey;
+            }
+        ::-webkit-scrollbar-thumb{
+            background-color:grey;
+            border-radius: 5px;
+        }
 
         .left {
             float: left;
@@ -52,15 +63,26 @@
         .nd {
             background-color: #b3d1ff;
             padding: 8px;
-            /*margin-top: 10px;*/
+            margin-top: 10px;
            /* margin-left: 50px;*/
             width: 100%;
             height: 700px;
             color: black;
-            overflow: scroll;
+            overflow-y: auto;
             /*text-align: center;*/
         }
-
+        .nd1{
+            background-color: #b3d1ff;
+            padding: 8px;
+            /*margin-top: 10px;*/
+            margin-left: 130px;
+            width: 80%;
+            height: 700px;
+            color: black;
+            overflow-y: auto;
+            /*text-align: center;*/
+           
+        }
         .link {
             height: 50px;
         }
@@ -89,6 +111,7 @@
 
             nav ul {
                 list-style: none;
+                margin-top:0;
             }
 
                 nav ul li {
@@ -149,9 +172,9 @@
 </head>
 <body style="font-family: 'Times New Roman'; color: #00ff21;">
 
-    <div style="background-color: #ff3333; padding: 2px; text-align: center; color:white; font-size:13pt;">
+    <div style="background-color: #ff3333; padding: 1px; text-align: center; color:white; font-size:13pt;">
         <h1>UNICONS </h1>
-        <h2 >Hệ thống tra cứu kiến thức toán Rời Rạc</h2>
+        <h2 >Hệ thống tra cứu kiến thức Toán Rời Rạc</h2>
     </div>
 
     <div class="auto-style1">
@@ -377,13 +400,13 @@
         </div>
 
     </div>
-
-    <div id="content-Div" class="nd" ;style="padding: 1rem; color: #141A46;">
+    <div class="nd">
+        <div id="content-Div" class="nd1" ;style="padding: 1rem; color: #141A46;">
        <h1 style ="text-align:center;"> WELCOM TO UNICONS</h1>
                 <img src="../Images/Math.jpg" class="img-responsive img-circle margin" style="display:block;margin-left:auto; margin-right:auto; " alt="Bird" width="650" height="400">
-
-
+        </div>
     </div>
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
         $(".itemClick").click(function () { 

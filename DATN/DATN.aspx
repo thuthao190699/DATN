@@ -12,6 +12,7 @@
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
 .fa-anchor,.fa-coffee {font-size:200px}
+.w3, h1, p{ color: black; }
   </style>
 
 </head>
@@ -29,7 +30,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 <!-- Header -->
 <header class="w3-container w3-red w3-center" style="padding:128px 16px">
   <h1 class="w3-margin w3-jumbo">START PAGE UNICONS</h1>
-  <p class="w3-xlarge">UNICONS chương trình hỗ trợ tra cứu kiến thức.</p>
+  <p class="w3-xlarge">UNICONS chương trình hỗ trợ tra cứu kiến thức Toán rời rạc.</p>
  <p><a href="Start.aspx" class="w3-button w3-xxlarge w3-black">Get Started</a></p>
 </header>
 <!-- Footer -->

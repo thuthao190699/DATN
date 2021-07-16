@@ -10,7 +10,7 @@
     <h2>Phần tử trội và trội trực tiếp.</h2>
     <h3>Định nghĩa:</h3>
     <p>Xét một tập hợp có thứ tự (A, &#8826) và x, y là 2 phần tử bất kì của A.</p>
-    <p>1. Nếu x &# y ta nói y là trội của x hay x được trội bởi y.</p>
+    <p>1. Nếu x &#8826 y ta nói y là trội của x hay x được trội bởi y.</p>
     <p>2. y là trội trực tiếp của x nếu y trội x và không tồn tại một trội z của x sao cho: x &#8800 &#8826 z &#8800 &#8826 y.</p>
     <hr />
     <h3>Đề xuất tìm kiếm:</h3>

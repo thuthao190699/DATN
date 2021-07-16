@@ -9,7 +9,7 @@
 <body>
     <h2>Đường đi.</h2>
     <h3>Định nghĩa:</h3>
-    <p>Xét đồ thị G = . Một đường đi độ dài n từ u tới v, n là một số nguyên dương, trong một đồ thị là một dãy: u = x0 x1 x2 … xn = v sao cho &#8704 i &#8712{0,…,n-1}, (xi , xi+1) &#8712E</p>
+    <p>Xét đồ thị G =(V, E) Một đường đi độ dài n từ u tới v, n là một số nguyên dương, trong một đồ thị là một dãy: u = x0 x1 x2 … xn = v sao cho &#8704 i &#8712{0,…,n-1}, (xi , xi+1) &#8712E</p>
     <img src="../Images/DuongDi_a.png" alt="Girl in a jacket" style="width:400px;height:300px;">
     <p>• Một đường đi (chu trình) được gọi là đường đi đơn (chu trình đơn) nếu nó không lặp lại cạnh nào.</p>
 <p> • Một đường đi (chu trình) được gọi là đường đi sơ cấp (chu trình sơ cấp) nếu nó không lặp lại đỉnh nào.</p>

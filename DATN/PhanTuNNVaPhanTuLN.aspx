@@ -9,9 +9,9 @@
 <body>
     <h2>Phần tử lớn nhất và phần tử nhỏ nhất.</h2>
     <h3>Định nghĩa:</h3>
-    <p></p>
+    <p>Cho (S, &#8826).</p>
     <p>a) Ta nói a = min (S, &#8826) nếu a &#8714 S và a &#8826 x &#8704 x &#8714 S.</p>
-    <p>b) Ta nói b Cho (S, &#8826).= min (S, &#8826) nếu b &#8714 S và x &#8826 b &#8704 x &#8714 S. </p>
+    <p>b) Ta nói b = max (S, &#8826) nếu b &#8714 S và x &#8826 b &#8704 x &#8714 S. </p>
     <p>c) Phần tử min (cực tiểu, nhỏ nhất) và max (cực đại, lớn nhất) hoặc <i>không tồn tại</i> hoặc <i>tồn tại duy nhất</i>.</p>
     <h3>Nhận xét:</h3>
     <p>Cho (S, &#8826).</p>

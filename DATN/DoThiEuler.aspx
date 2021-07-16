@@ -9,15 +9,15 @@
 <body>
     <h2>Đồ thị Euler</h2>
     <h3>Các khái niệm đồ thị Euler:</h3>
-    <p>Cho đồ thị G=(V,E) <br />
-• Đường đi Euler: Đường đi đơn trong G đi qua mọi cạnh của nó, mỗi cạnh chỉ đi qua một lần được gọi là đường đi Euler<br />
- 	• Chu trình Euler: Chu trình đơn trong đồ thị G đi qua mọi cạnh của nó, mỗi cạnh chỉ đi qua một lần được gọi là chu trình Euler.<br />
-• Đường đi có hướng Euler: Đường đi đơn có hướng qua mọi cạnh của đồ thị <br />
-• Chu trình có hướng Euler: Là chu trình đơn có hướng qua mọi cạnh của đồ thị<br />
-&#8658	Đồ thị có chứa chu trình Euler gọi là đồ thị Euler
+    <p>Cho đồ thị G=(V,E) </p>
+<p>• Đường đi Euler: Đường đi đơn trong G đi qua mọi cạnh của nó, mỗi cạnh chỉ đi qua một lần được gọi là đường đi Euler.</p>
+<p>• Chu trình Euler: Chu trình đơn trong đồ thị G đi qua mọi cạnh của nó, mỗi cạnh chỉ đi qua một lần được gọi là chu trình Euler.</p>
+<p>• Đường đi có hướng Euler: Đường đi đơn có hướng qua mọi cạnh của đồ thị. </p>
+<p>• Chu trình có hướng Euler: Là chu trình đơn có hướng qua mọi cạnh của đồ thị.</p>
+<p>&#8658	Đồ thị có chứa chu trình Euler gọi là đồ thị Euler
 </p>
     <h3>Ví dụ:</h3>
-        <img src="../Images/KNDoThiEuler.png" alt="Girl in a jacket" style="width:300px;height:200px;">
+        <img src="../Images/KNDoThiEuler.png" alt="Girl in a jacket" style="width:300px;height:200px;"/>
    <p> Chu trình Euler: a, b, c, f, e, b, d, c, a.</p>
     <hr />
     <h3>Đề xuất tìm kiếm:</h3>

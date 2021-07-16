@@ -9,8 +9,8 @@
 <body>
     <h2>Cây và cây khung</h2>
     <h3>Khái niệm về cây:</h3>
-    <p>• Cây là một đồ thị vô hướng liên thông không chứa chu trình và có ít nhất 2 đỉnh (cây không chứa khuyên và cạnh song song) <br />
-• Rừng là 1 đô thị gồm p thành phần liên thông trong đó mỗi thành phần liên thông là 1 cây.
+    <p>• Cây là một đồ thị vô hướng liên thông không chứa chu trình và có ít nhất 2 đỉnh (cây không chứa khuyên và cạnh song song) </p>
+<p>• Rừng là 1 đô thị gồm p thành phần liên thông trong đó mỗi thành phần liên thông là 1 cây.
 </p>
     <hr />
     <h3>Đề xuất tìm kiếm:</h3>
