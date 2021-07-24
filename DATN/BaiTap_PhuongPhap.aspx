@@ -48,13 +48,17 @@
         background-color:gainsboro;
         overflow-y: scroll;
         /*text-align:center;*/
+        background-image: url("../Images/Nature4.jpg");
+        background-size: 100% 100%;
+
 }
 .content1{
-        width: 80%;
-        height: 600px;
-        margin-top: 50px;
-        margin-left: 140px;
-        background-color:gainsboro;
+        width: 70%;
+        height: 700px;
+        padding: 10px;
+        margin-top: 20px;
+        margin-left: 195px;
+        background-color:#ffffff;
         overflow-y: scroll;
         /*text-align:center;*/
 }

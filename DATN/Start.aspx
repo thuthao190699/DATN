@@ -61,8 +61,8 @@
         }
 
         .nd {
-            background-color: #b3d1ff;
-            padding: 8px;
+            /*background-color: #b3d1ff;*/
+            /*padding: 8px;*/
             margin-top: 10px;
            /* margin-left: 50px;*/
             width: 100%;
@@ -70,26 +70,29 @@
             color: black;
             overflow-y: auto;
             /*text-align: center;*/
+            background-image: url("../Images/Nature1.jpg");
+            background-size: 100% 100%;
+            
         }
         .nd1{
-            background-color: #b3d1ff;
-            padding: 8px;
-            /*margin-top: 10px;*/
-            margin-left: 130px;
-            width: 80%;
+            background-color: #ffffff;
+            padding: 10px;
+            margin-top: 20px;
+            margin-left: 210px;
+            width: 70%;
             height: 700px;
             color: black;
             overflow-y: auto;
             /*text-align: center;*/
-           
+          
         }
         .link {
             height: 50px;
         }
         .link a{
-            color: white;
+            color: black;
             text-decoration:none;
-
+            font-family: 'Times New Roman';
         }
 
         .t-wrap {
@@ -170,9 +173,9 @@
 
 
 </head>
-<body style="font-family: 'Times New Roman'; color: #00ff21;">
+<body style="font-family: 'Times New Roman';">
 
-    <div style="background-color: #ff3333; padding: 1px; text-align: center; color:white; font-size:13pt;">
+    <div style="background-color: dodgerblue; padding: 1px; text-align: center; color:black; font-size:13pt;">
         <h1>UNICONS </h1>
         <h2 >Hệ thống tra cứu kiến thức Toán Rời Rạc</h2>
     </div>
@@ -383,28 +386,25 @@
         </nav>
     </div>
 
-    <div class="link" style="background-color: #ff3333; text-align: center; padding: 10px; ">
+    <div class="link" style="background-color: dodgerblue; text-align: center; padding: 10px; ">
         <div class="left">
             <a href="KhaiNiem_DinhNghia.aspx" target ="_blank">Tra cứu khái niệm, định nghĩa.</a>
-
         </div>
 
         <div class="mid">
             <a href="DinhLy_TinhChat.aspx" target ="_blank">Tra cứu định lý, tính chất.</a>
-
         </div>
 
         <div class="right">
             <a href="BaiTap_PhuongPhap.aspx" target ="_blank">Bài tập, phương pháp.</a>
-
         </div>
 
     </div>
     <div class="nd">
-        <div id="content-Div" class="nd1" ;style="padding: 1rem; color: #141A46;">
-       <h1 style ="text-align:center;"> WELCOM TO UNICONS</h1>
-                <img src="../Images/Math.jpg" class="img-responsive img-circle margin" style="display:block;margin-left:auto; margin-right:auto; " alt="Bird" width="650" height="400">
-        </div>
+      <div id="content-Div" class="nd1" ;style="padding: 1rem; color: #141A46;">
+        <h1 style ="text-align:center;"> WELCOM TO UNICONS</h1>
+                <img src="../Images/Math.jpg" class="img-responsive img-circle margin" style="display:block;margin-left:auto; margin-right:auto;"  width="650" height="400">
+      </div>
     </div>
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

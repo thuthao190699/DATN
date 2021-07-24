@@ -95,6 +95,10 @@
     <Content Include="DangMenhDeHangDung.aspx" />
     <Content Include="DangMenhDeHangSai.aspx" />
     <Content Include="DinhLy_TinhChat.aspx" />
+    <Content Include="Images\Nature1.jpg" />
+    <Content Include="Images\Nature2.jpg" />
+    <Content Include="Images\Nature3.jpg" />
+    <Content Include="Images\Nature4.jpg" />
     <Content Include="Start.aspx" />
     <Content Include="DinhKe.aspx" />
     <Content Include="DinhLyEuler.aspx" />

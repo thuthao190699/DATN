@@ -9,7 +9,8 @@
 <body>
     <h2>Quan hệ thứ tự toàn phần.</h2>
     <h3>Định nghĩa:</h3>
-    <p>Cho (A, &#8880) &# x, x &# A ; x &#8880 y hay y &#8880 x (x và y so sánh được với nhau bởi quan hệ thứ tự &#8880). Ta nói &#8880 là một <i>thứ tự toàn phần</i> trên A.</p>
+    <p>Cho (A, &#8880).</p> 
+    <p>&#8704 x, y &#8714 A ; x &#8880 y hay y &#8880 x (x và y so sánh được với nhau bởi quan hệ thứ tự &#8880). Ta nói &#8880 là một <i>thứ tự toàn phần</i> trên A.</p>
     <hr />
     <h3>Ví dụ:</h3>
     <p>a) (R, &#8804) và (R, &#8805) là các quan hệ thứ tự toàn phần.</p>
